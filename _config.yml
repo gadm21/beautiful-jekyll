@@ -87,16 +87,16 @@ keywords: "deeplearning,computer vision,NLP,DS & algorithms"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#0000FF"
-navbar-text-col: "#404040"
+navbar-col: "#FFD700"
+navbar-text-col: "#E0FFFF"
 navbar-border-col: "#0000FF"
-page-col: "#0000FF"
-text-col: "#404040"
-link-col: "#008AFF"
+page-col: "#000080"
+text-col: "#E0FFFF"
+link-col: "#E0FFFF"
 hover-col: "#0085A1"
-footer-col: "#0000FF"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-col: "#000080"
+footer-text-col: "#E0FFFF"
+footer-link-col: "#E0FFFF"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
