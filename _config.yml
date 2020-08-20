@@ -1,7 +1,7 @@
 # --- Basic options --- #
 
 # Name of website
-title: Gad Mohamed
+#title: Gad Mohamed
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -22,14 +22,14 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-#avatar: "/assets/img/me.jpg"
+avatar: "/assets/img/me.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-#round-avatar: true
+round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/assets/img/me.jpg"
+#title-img: "/assets/img/me.jpg"
 
 
 # --- Footer options --- #
@@ -94,7 +94,7 @@ page-col: "#0000FF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#00BFFF"
+footer-col: "#0000FF"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
@@ -167,7 +167,7 @@ footer-link-col: "#404040"
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
-title-separator: "."
+title-separator: "-"
 
 # Ruby Date Format to show dates of posts
 date_format: "%B %-d, %Y"
