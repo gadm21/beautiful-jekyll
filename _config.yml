@@ -12,11 +12,11 @@ author: Gad Mohamed
 # --- List of links in the navigation bar --- #
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Computer vision: "https://beautifuljekyll.com"
-    - NLP: "https://beautifuljekyll.com"
-    - DS & Algorithms: "https://www.markdowntutorial.com/"
-    - Data science: "https://www.markdowntutorial.com/" 
+  
+  Computer vision: "https://beautifuljekyll.com"
+  NLP: "https://beautifuljekyll.com"
+  DS & Algorithms: "https://www.markdowntutorial.com/"
+  Data science: "https://www.markdowntutorial.com/" 
 
 # --- Logo --- #
 
