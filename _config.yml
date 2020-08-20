@@ -89,13 +89,13 @@ keywords: "deeplearning,computer vision,NLP,DS & algorithms"
 navbar-col: "#FFD700"
 navbar-text-col: "#E0FFFF"
 navbar-border-col: "#0000FF"
-page-col: "#000080"
+page-col: "#4682B4"
 text-col: "#E0FFFF"
 link-col: "#E0FFFF"
 hover-col: "#0085A1"
-footer-col: "#000080"
-footer-text-col: "#E0FFFF"
-footer-link-col: "#E0FFFF"
+footer-col: "#4682B4"
+footer-text-col: "#FFD700"
+footer-link-col: "#FFD700"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
