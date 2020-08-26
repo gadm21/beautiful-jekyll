@@ -1,7 +1,7 @@
 # --- Basic options --- #
 
 # Name of website
-title: Gad
+#title: Gad
 
 # Short description of your site
 description: A virtual proof that I'm awesome
@@ -90,7 +90,7 @@ navbar-col: "#FFD700"
 navbar-text-col: "#E0FFFF"
 navbar-border-col: "#0000FF"
 page-col: "#E0FFFF"
-text-col: "#4682B4"
+text-col: "#FFD700"
 link-col: "#4682B4"
 hover-col: "#0085A1"
 footer-col: "#4682B4"
@@ -101,8 +101,8 @@ footer-link-col: "#FFD700"
 # instead of colour
 
 #navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
-#page-img: "/assets/img/bgimage.png"
+footer-img: "/assets/img/abstract2.jpg"
+page-img: "/assets/img/abstract1.jpg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
