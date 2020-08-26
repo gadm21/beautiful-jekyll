@@ -15,7 +15,7 @@ navbar-links:
   
   Computer vision: "https://beautifuljekyll.com"
   NLP: "https://beautifuljekyll.com"
-  DS & Algorithms: "https://www.markdowntutorial.com/"
+  DS & Algorithms: "https://github.com/gadm21/DataStructures-and-Algorithms/"
   Data science: "https://www.markdowntutorial.com/" 
 
 # --- Logo --- #
@@ -89,9 +89,9 @@ keywords: "deeplearning,computer vision,NLP,DS & algorithms"
 navbar-col: "#FFD700"
 navbar-text-col: "#E0FFFF"
 navbar-border-col: "#0000FF"
-page-col: "#4682B4"
-text-col: "#E0FFFF"
-link-col: "#E0FFFF"
+page-col: "#E0FFFF"
+text-col: "#4682B4"
+link-col: "#4682B4"
 hover-col: "#0085A1"
 footer-col: "#4682B4"
 footer-text-col: "#FFD700"
