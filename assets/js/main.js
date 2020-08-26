@@ -1,110 +1,70 @@
-// Dean Attali / Beautiful Jekyll 2020
+const clickCounter = document.querySelector('.footer .click-counter');
+let clickCnt = 0;
 
-var BeautifulJekyllJS = {
+//console log click function
+function logClick (e) {
+    clickCnt++; 
+    showClicks();
+}
 
-  bigImgEl : null,
-  numImgs : null,
-
-  init : function() {
-    // Set the navbar-dark/light class based on its background color
-    const rgb = $('.navbar').css("background-color").replace(/[^\d,]/g,'').split(",");
-    const brightness = Math.round(( // http://www.w3.org/TR/AERT#color-contrast
-      parseInt(rgb[0]) * 299 +
-      parseInt(rgb[1]) * 587 +
-      parseInt(rgb[2]) * 114
-    ) / 1000);
-    if (brightness <= 125) {
-      $(".navbar").removeClass("navbar-light").addClass("navbar-dark");
+//show clicks
+function showClicks () {
+    if (clickCnt == 1) {
+        clickCounter.innerHTML = `Yes! You've starred ${clickCnt} time 🙂`;
     }
-
-    // Shorten the navbar after scrolling a little bit down
-    $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar").addClass("top-nav-short");
-        } else {
-            $(".navbar").removeClass("top-nav-short");
-        }
-    });
-
-    // On mobile, hide the avatar when expanding the navbar menu
-    $('#main-navbar').on('show.bs.collapse', function () {
-      $(".navbar").addClass("top-nav-expanded");
-    });
-    $('#main-navbar').on('hidden.bs.collapse', function () {
-      $(".navbar").removeClass("top-nav-expanded");
-    });
-
-    // show the big header image
-    BeautifulJekyllJS.initImgs();
-  },
-
-  initImgs : function() {
-    // If the page was large images to randomly select from, choose an image
-    if ($("#header-big-imgs").length > 0) {
-      BeautifulJekyllJS.bigImgEl = $("#header-big-imgs");
-      BeautifulJekyllJS.numImgs = BeautifulJekyllJS.bigImgEl.attr("data-num-img");
-
-      // 2fc73a3a967e97599c9763d05e564189
-      // set an initial image
-      var imgInfo = BeautifulJekyllJS.getImgInfo();
-      var src = imgInfo.src;
-      var desc = imgInfo.desc;
-      BeautifulJekyllJS.setImg(src, desc);
-
-      // For better UX, prefetch the next image so that it will already be loaded when we want to show it
-      var getNextImg = function() {
-        var imgInfo = BeautifulJekyllJS.getImgInfo();
-        var src = imgInfo.src;
-        var desc = imgInfo.desc;
-
-        var prefetchImg = new Image();
-        prefetchImg.src = src;
-        // if I want to do something once the image is ready: `prefetchImg.onload = function(){}`
-
-        setTimeout(function(){
-          var img = $("<div></div>").addClass("big-img-transition").css("background-image", 'url(' + src + ')');
-          $(".intro-header.big-img").prepend(img);
-          setTimeout(function(){ img.css("opacity", "1"); }, 50);
-
-          // after the animation of fading in the new image is done, prefetch the next one
-          //img.one("transitioned webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
-          setTimeout(function() {
-            BeautifulJekyllJS.setImg(src, desc);
-            img.remove();
-            getNextImg();
-          }, 1000);
-          //});
-        }, 6000);
-      };
-
-      // If there are multiple images, cycle through them
-      if (BeautifulJekyllJS.numImgs > 1) {
-        getNextImg();
-      }
+    else if (clickCnt <= 10) {
+        clickCounter.innerHTML = `Hooray! You've starred ${clickCnt} times 😁`;
     }
-  },
-
-  getImgInfo : function() {
-    var randNum = Math.floor((Math.random() * BeautifulJekyllJS.numImgs) + 1);
-    var src = BeautifulJekyllJS.bigImgEl.attr("data-img-src-" + randNum);
-    var desc = BeautifulJekyllJS.bigImgEl.attr("data-img-desc-" + randNum);
-
-    return {
-      src : src,
-      desc : desc
+    else if (clickCnt > 10 && clickCnt <= 20) {
+        clickCounter.innerHTML = `Awesome! You've starred ${clickCnt} times 🎉<br>How about starring me on <a href="https://github.com/icheft/ntu-homepage" target="_blank">GitHub</a>?`;
     }
-  },
-
-  setImg : function(src, desc) {
-    $(".intro-header.big-img").css("background-image", 'url(' + src + ')');
-    if (typeof desc !== typeof undefined && desc !== false) {
-      $(".img-desc").text(desc).show();
-    } else {
-      $(".img-desc").hide();
+    else if (clickCnt > 20 && clickCnt <= 40) {
+        clickCounter.innerHTML = `Let's goooo! You've starred ${clickCnt} times 🍾<br>How about starring me on <a href="https://github.com/icheft/ntu-homepage" target="_blank">GitHub</a>?`;
     }
-  }
-};
+    else if (clickCnt > 40 && clickCnt <= 100) {
+        clickCounter.innerHTML = `That's lit 🔥 You've starred ${clickCnt} times, but you should definitely stop starring 💁🏾‍♂️<br>How about starring me on <a href="https://github.com/icheft/ntu-homepage" target="_blank">GitHub</a>?`;
+    }
+    else if (clickCnt > 100) {
+        clickCounter.innerHTML = `OMG 😱 You've starred ${clickCnt} times 🤯 Screen-capture this message and DM me 😍<br>You'll get nothing as a reward 🤪<br>But how about starring me on <a href="https://github.com/icheft/ntu-homepage" target="_blank">GitHub</a>?`;
+    }
+}
 
-// 2fc73a3a967e97599c9763d05e564189
+//event listeners
+document.addEventListener("click", logClick);
 
-document.addEventListener('DOMContentLoaded', BeautifulJekyllJS.init);
+// light/dark toggle
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+const isDarkModeOn = document.querySelector('#dark-mode-prompt');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark'); //add this
+        $("#btn-outline1").removeClass('btn-outline-dark').addClass('btn-outline-light');
+        $("#btn-outline2").removeClass('btn-outline-dark').addClass('btn-outline-light');
+        isDarkModeOn.innerHTML = `Dark Mode Enabled`;
+    }
+    else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light'); //add this
+        $("#btn-outline1").removeClass('btn-outline-light').addClass('btn-outline-dark');
+        $("#btn-outline2").removeClass('btn-outline-light').addClass('btn-outline-dark');
+        isDarkModeOn.innerHTML = `Light Mode On`;
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+        $("#btn-outline1").removeClass('btn-outline-dark').addClass('btn-outline-light');
+        $("#btn-outline2").removeClass('btn-outline-dark').addClass('btn-outline-light');
+        isDarkModeOn.innerHTML = `Dark Mode Enabled`;
+    }
+}
