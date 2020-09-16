@@ -86,6 +86,9 @@ body {
   position: relative;
 }
 
+.marginal {
+  margin-left : 10px;
+}
 
 /*48em*/
 
