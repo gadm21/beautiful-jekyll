@@ -358,3 +358,34 @@ input:checked+.slider:before {
     left: 0px;
     z-index: 0;
 }
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(22, 30, 170);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+li a.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 30, 170);
+}
