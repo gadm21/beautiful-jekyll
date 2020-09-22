@@ -1,7 +1,3 @@
-body {
-    font-family: "Montserrat", sans-serif;
-}
-
 .new-table {
     min-height: 40px;
     margin: 50px 0;
@@ -10,25 +6,18 @@ body {
 }
 
 .table {
-    margin: 5px auto;
-    width: 90vw;
     border-collapse: collapse;
-    border-radius: 15px;
+    border-radius: 20px;
     /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);*/
-    overflow: hidden;
-    color: #eee;
-    background: linear-gradient(90deg, rgb(168, 147, 191), rgba(155, 130, 130, 0.564), rgba(165, 147, 147, 0));
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
+    color: rgb(255, 0, 0);
 }
 
 .table tr {
     max-width: 80vw;
     height: 30px;
-    font-size: 18px;
-    color: #eee;
+    font-size: 22px;
+    font-weight: bold;
+    color: darkslateblue
 }
 
 .table td,
@@ -38,28 +27,28 @@ body {
 }
 
 .table thead {
-    background: rgba(205, 163, 163, 0.27);
+    color: rgba(7, 254, 85, 0.818);
     font-weight: bold;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .table tbody tr:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(40, 23, 23, 0.425);
+    color: white;
 }
 
 .table td {
     position: relative;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
 }
 
 .table td:hover::before {
     content: "";
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     top: -9999px;
     bottom: -9999px;
-    background-color: rgba(255, 255, 255, 0.3);
     z-index: -1;
 }

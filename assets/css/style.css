@@ -6,8 +6,8 @@
     --font-color: #00126c;
     --bg-color1: #ddd;
     --bg-color2: #a8e6cb;
-    --bg-color3: #e2d69d80;
-    --bg-color4: #bae79389;
+    --bg-color3: #bde29d45;
+    --bg-color4: #93dce789;
     --heading-color: #292922;
     --shadow-color1: rgba(0, 0, 0, 0.18);
     --shadow-color2: rgba(0, 0, 0, 0.15);
@@ -116,7 +116,7 @@ p {
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
     color: var(--link-color);
-    font-weight: 500;
+    font-weight: 50;
 }
 
 .intro a:hover {
