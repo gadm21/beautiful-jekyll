@@ -3,7 +3,7 @@
 .blog-card {
     display: -webkit-box;
     margin: 1rem auto;
-    box-shadow: 0 3px 7px -1px rgba(113, 113, 97, 0.571);
+    box-shadow: 0 4px 9px -1px rgba(113, 113, 97, 0.571);
     margin-bottom: 3%;
     background: none;
     border-radius: 35px 0px 0px 35px;
@@ -69,18 +69,6 @@
     display: inline-block;
 }
 
-.blog-card .details .author:before {
-    font-family: FontAwesome;
-    margin-right: 10px;
-    content: "\f007";
-}
-
-.blog-card .details .date:before {
-    font-family: FontAwesome;
-    margin-right: 10px;
-    content: "\f133";
-}
-
 .blog-card .details .tags ul:before {
     font-family: FontAwesome;
     content: "\f02b";
@@ -97,8 +85,7 @@
 
 .blog-card .description {
     padding: 1rem;
-    background: #fff;
-    opacity: 0.1;
+    background: #fff 0.1;
     position: relative;
     z-index: 1;
 }
@@ -187,18 +174,6 @@
     }
     .blog-card .description {
         flex-basis: 60%;
-    }
-    .blog-card .description:before {
-        -webkit-transform: skewX(-3deg);
-        transform: skewX(-3deg);
-        content: "";
-        background: #fff;
-        width: 30px;
-        position: absolute;
-        left: -10px;
-        top: 0;
-        bottom: 0;
-        z-index: -1;
     }
     .blog-card.alt {
         -webkit-box-orient: horizontal;
