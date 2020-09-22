@@ -2,12 +2,12 @@
     --primary-color: #2600b1;
     --secondary-color: #d5d5d5;
     --link-color: #287dfc;
-    --hover-color: #35f2ff;
+    --hover-color: #50a6ac;
     --font-color: #00126c;
-    --bg-color1: #fffbd4;
-    --bg-color2: #79d89f;
-    --bg-color3: #e0f7ff;
-    --bg-color4: #79b8a9;
+    --bg-color1: #ddd;
+    --bg-color2: #a8e6cb;
+    --bg-color3: #e2d69d80;
+    --bg-color4: #bae79389;
     --heading-color: #292922;
     --shadow-color1: rgba(0, 0, 0, 0.18);
     --shadow-color2: rgba(0, 0, 0, 0.15);
@@ -107,7 +107,7 @@ p {
     font-size: 1.6em;
     font-weight: 300;
     line-height: 1.4;
-    max-width: 26em;
+    max-width: 85%;
 }
 
 .intro a {
@@ -121,6 +121,10 @@ p {
 
 .intro a:hover {
     border-bottom: 1.2px solid var(--hover-color);
+}
+
+.moocs {
+    text-align: center;
 }
 
 .footer {
@@ -352,9 +356,9 @@ input:checked+.slider:before {
 #particle-container {
     position: fixed;
     overflow: hidden;
-    /*width: 50%;
-  height: 100%;*/
-    top: 0px;
+    width: 100%;
+    height: 100%;
+    top: 10%;
     left: 0px;
     z-index: 0;
 }

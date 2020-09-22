@@ -23,41 +23,119 @@ title: shallow thoughts on deep learning
 <head>
 
 
+
+    <meta charset="utf-8">
+    <title>MOOCS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="assets/img/me.jpg" />
+
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="moocs/assets/css/body.css" />
+    <link rel="stylesheet" href="moocs/assets/css/table.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167607612-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-167607612-1');
+    </script>
+
+
 </head>
 
 <body>
 
+    <div id="particle-container"></div>
 
-    <div id="container">
+    <div id=" container ">
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="low_computer_vision_main.html">Low level computer vision</a></li>
-            <li><a href="high_computer_vision_main.html">High level computer vision</a></li>
-            <li><a href="nlp_main.html">NLP</a></li>
-            <li><a href="ds_alg_main.html">DataStructures & Algorithms</a></li>
-            <li><a class="active" href="moocs_main.html">MOOCS</a></li>
-            <li><a href="publications_main.html">Publications</a></li>
+            <li><a href="index.html ">HOME</a></li>
+            <li><a href="low_computer_vision_main.html ">Low level computer vision</a></li>
+            <li><a href="high_computer_vision_main.html ">High level computer vision</a></li>
+            <li><a href="nlp_main.html ">NLP</a></li>
+            <li><a href="ds_alg_main.html ">DataStructures & Algorithms</a></li>
+            <li><a class="active " href="moocs_main.html ">MOOCS</a></li>
+            <li><a href="publications_main.html ">Publications</a></li>
         </ul>
 
     </div>
 
-
-
-
-    <div class="marginal">
-        <div class="intro">
-            <h1>Hello <span class="wave">👋🏾</span></h1>
-            <p style="font-weight:500; font-size:2.2em"> I am Gad, and this website is under construction :) </p>
-            <p data-aos="fade-right"> <br> I am a computer engineering student at <a href="https://nu.edu.eg/" target="_blank" rel="noopener">Nile university</a>. </p>
-            <p data-aos="fade-right"> I'm interested in DeepLearning, computer vision, image processing, and Algorithm development. These are tools that have huge potential in applications like medical imaging, autonomous vehicles, surveillance, and much more. </p>
-            <p data-aos="fade-right"> Besides studying, I'm a chess player and a good follower of international and domestic politics. </p>
-
+    <div class="marginal ">
+        <div class="intro ">
+            <p style="font-weight:500; font-size:2.2em " class='moocs'> I love MOOCS, MOOCS love me </p>
         </div>
 
+    </div>
+
+
+    <!--
+    <script src="moocs/assets/js/table.js"></script>
+    <script>
+        let headings = [{
+            label: "Course",
+            for: "name"
+        }, {
+            label: "Progress",
+            for: "quantity"
+        }, {
+            label: "Institute",
+            for: "quantity"
+        }, {
+            label: "Certificate",
+            for: "image"
+        }];
+
+        let rows = [{
+            name: "DeepLearning specialization",
+            quantity: 1,
+            image: "$150"
+        }, {
+            name: "Web Development specialization",
+            quantity: "",
+            image: "$100"
+        }, {
+            name: "Adv. Machine Learning specialization",
+            quantity: 10,
+            image: "$20"
+        }];
+        const table = new Table(headings, rows);
+    </script>
+-->
+
+
+    <div class="new-table">
+        <table class="table">
+            <tr>
+                <th>Course</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Web Development specialization</td>
+                <td>Smith</td>
+                <td><img src='moocs/certificates/deeplearning_specialization.png' width="128" height="100"></td>
+            </tr>
+            <tr>
+                <td>Adv. Machine Learning specialization</td>
+                <td>Jackson</td>
+                <td><img src='moocs/certificates/deeplearning_specialization.png' width="128" height="100"></td>
+            </tr>
+        </table>
 
     </div>
 
@@ -66,20 +144,21 @@ title: shallow thoughts on deep learning
 
 
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
     <script>
         AOS.init();
     </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <!-- <script src="assets/js/mojs.js"></script> -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/particle-script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js "></script>
+    <!-- <script src="assets/js/mojs.js "></script> -->
+    <script src="assets/js/main.js "></script>
+    <script src="assets/js/particle-script.js "></script>
 
 </body>
 
