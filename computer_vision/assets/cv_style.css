@@ -107,7 +107,7 @@
     font-size: 1rem;
     font-weight: 300;
     text-transform: uppercase;
-    color: #ef0707;
+    color: #1a226a95;
     margin-top: 5px;
     opacity: 1;
 }
@@ -139,6 +139,7 @@
 
 .blog-card p {
     position: relative;
+    font-size: 1.2rem;
     margin: 1rem 0 0;
 }
 
