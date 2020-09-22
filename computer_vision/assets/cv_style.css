@@ -1,42 +1,25 @@
 /*PEN STYLES*/
 
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background: #f1f1f1;
-    margin: 2rem;
-}
-
 .blog-card {
     display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
     margin: 1rem auto;
-    box-shadow: 0 3px 7px -1px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1.6%;
-    background: rgb(0, 0, 0);
-    line-height: 1.4;
-    font-family: sans-serif;
-    border-radius: 5px;
+    box-shadow: 0 3px 7px -1px rgba(113, 113, 97, 0.571);
+    margin-bottom: 3%;
+    background: none;
+    border-radius: 35px 0px 0px 35px;
+    border-color: red;
+    border-width: 2ch;
     overflow: hidden;
     z-index: 0;
 }
 
 .blog-card a {
     color: inherit;
+    text-decoration: none;
 }
 
 .blog-card a:hover {
-    color: #5ad67d;
-}
-
-.blog-card:hover .photo {
-    -webkit-transform: scale(1.3) rotate(3deg);
-    transform: scale(1.3) rotate(3deg);
+    color: #34d254;
 }
 
 .blog-card .meta {
@@ -53,10 +36,6 @@ body {
     left: 0;
     background-size: cover;
     background-position: center;
-    -webkit-transition: -webkit-transform .2s;
-    transition: -webkit-transform .2s;
-    transition: transform .2s;
-    transition: transform .2s, -webkit-transform .2s;
 }
 
 .blog-card .details,
@@ -119,6 +98,7 @@ body {
 .blog-card .description {
     padding: 1rem;
     background: #fff;
+    opacity: 0.1;
     position: relative;
     z-index: 1;
 }
@@ -126,20 +106,23 @@ body {
 .blog-card .description h1,
 .blog-card .description h2 {
     font-family: Poppins, sans-serif;
+    opacity: 1;
 }
 
 .blog-card .description h1 {
     line-height: 1;
     margin: 0;
     font-size: 1.7rem;
+    opacity: 1;
 }
 
 .blog-card .description h2 {
     font-size: 1rem;
     font-weight: 300;
     text-transform: uppercase;
-    color: #a2a2a2;
+    color: #ef0707;
     margin-top: 5px;
+    opacity: 1;
 }
 
 .blog-card .description .read-more {
@@ -184,6 +167,7 @@ body {
     width: 35px;
     top: -0.75rem;
     border-radius: 3px;
+    border-color: red;
 }
 
 .blog-card:hover .details {
@@ -195,7 +179,7 @@ body {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         flex-direction: row;
-        max-width: 700px;
+        max-width: 70%;
     }
     .blog-card .meta {
         flex-basis: 40%;
