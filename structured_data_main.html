@@ -40,7 +40,7 @@ title: shallow thoughts on deep learning
       -->
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="structured_data/assets/cv_style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167607612-1"></script>
 
@@ -66,28 +66,33 @@ title: shallow thoughts on deep learning
             <li><a href="index.html">HOME</a></li>
             <li><a href="computer_vision_main.html ">computer vision</a></li>
             <li><a href="nlp_main.html">NLP</a></li>
-            <li><a href="structured_data_main.html">structured data</a></li>
+            <li><a class="active" href="structured_data_main.html">structured data</a></li>
             <li><a href="ds_alg_main.html">DataStructures & Algorithms</a></li>
             <li><a href="moocs_main.html">MOOCS</a></li>
-            <li><a class="active" href="publications_main.html">Publications</a></li>
+            <li><a href="publications_main.html">Publications</a></li>
         </ul>
 
     </div>
 
 
 
+    <div class="blog-card">
+        <div class="meta">
+            <div class="photo" style="background-image:url( structured_data/images/risk_modelling.png " )> </div>
 
-    <div class="marginal">
-        <div class="intro">
-            <h1>Hello <span class="wave">👋🏾</span></h1>
-            <p style="font-weight:500; font-size:2.2em"> I am Gad, and this website is under construction :) </p>
-            <p data-aos="fade-right"> <br> I am a computer engineering student at <a href="https://nu.edu.eg/" target="_blank" rel="noopener">Nile university</a>. </p>
-            <p data-aos="fade-right"> I'm interested in DeepLearning, computer vision, image processing, and Algorithm development. These are tools that have huge potential in applications like medical imaging, autonomous vehicles, surveillance, and much more. </p>
-            <p data-aos="fade-right"> Besides studying, I'm a chess player and a good follower of international and domestic politics. </p>
+            <ul class="details tags ">
+                <li><a href="structured_data/code/risk_models_using_dt.html ">Code</a></li>
+            </ul>
+        </div>
+        <div class="description ">
+            <h1>Risk modelling using tree-based models</h1>
+            <h2>Predicting whether a patient will die in 10 years</h2>
+            <p> In this project, patients' medical data like age, blood pressure, sedimentation rate, race, etc.. are analyzed, visualized, and used to build a model using DT and RF using different techniques to deal with missing values like complete analysis
+                and mean & iterative imputation. all models variations are evaluated using c-index</p>
+            <p style="color:burlywood; ">keywords: risk-model, DT, RF, imputation, c-index, SHAP</p>
+
 
         </div>
-
-
     </div>
 
 
@@ -95,19 +100,20 @@ title: shallow thoughts on deep learning
 
 
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
     <script>
         AOS.init();
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <!-- <script src="assets/js/mojs.js"></script> -->
-    <script src="assets/js/particle-script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/mojs/0.265.6/mo.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/mojs-player/0.43.15/mojs-player.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js "></script>
+    <!-- <script src="assets/js/mojs.js "></script> -->
+    <script src="assets/js/particle-script.js "></script>
 
 </body>
 

@@ -69,6 +69,7 @@ title: shallow thoughts on deep learning
             <li><a href="index.html">HOME</a></li>
             <li><a class='active' href="computer_vision_main.html ">computer vision</a></li>
             <li><a href="nlp_main.html">NLP</a></li>
+            <li><a href="structured_data_main.html">structured data</a></li>
             <li><a href="ds_alg_main.html">DataStructures & Algorithms</a></li>
             <li><a href="moocs_main.html">MOOCS</a></li>
             <li><a href="publications_main.html">Publications</a></li>
@@ -79,18 +80,20 @@ title: shallow thoughts on deep learning
 
     <div class="blog-card">
         <div class="meta">
-            <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+            <div class="photo" style="background-image: url(computer_vision/images/image_captioning.png)"></div>
 
             <ul class="details tags">
-                <li><a href="#">Paper</a></li>
+                <li><a href="https://arxiv.org/abs/1411.4555">Paper</a></li>
                 <li><a href="computer_vision/code/simple_clean_working_image_captioning.html">Code</a></li>
-                <li><a href="#">Post</a></li>
+                <li><a href="https://research.googleblog.com/2014/11/a-picture-is-worth-thousand-coherent.html">Tutorial</a></li>
             </ul>
         </div>
         <div class="description">
             <h1>Image captioning</h1>
-            <h2>An implementation of a Google's image captioning paper</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+            <h2>An implementation of Google's image captioning paper</h2>
+            <p> In this project, an end-to-end image captioning deep-learning-based architecture is presented based on Google's paper entitled "Show and Tell: A Neural Image Caption Generator". The architecture starts with extracting features from the input
+                image using a top-less pre-trained CNN (InceptionV3 is used here). Then, LSTM units are fed the image features as an initial state as well as the caption tokens one at a time.</p>
+            <p style="color: burlywood;">keywords: captioning, InceptionV3, LSTM, Keras</p>
 
 
         </div>
@@ -110,14 +113,38 @@ title: shallow thoughts on deep learning
             </ul>
         </div>
         <div class="description">
-            <h1>Learning to Code</h1>
-            <h2>Opening a door to the future</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+            <h1>Noisy MNIST classification</h1>
+            <h2>using KNN to classifiy a Noisy MNIST dataset</h2>
+            <p> KNN is a simple machine learning algorithm for classification tasks which requires no learning and works the best on medium-sized datasets. Here, I firstly clean the data using median filter and cropping, then I use PCA dimensionality reduction
+                tool to speed up KNN by reducing feature dimension as well as increase feature quality. Finally, the model's performance is evaluated using the Leave-one-out cross-validation algorithm and confusion matrix is calculated on the testset</p>
+            <p style="color: burlywood;">keywords: KNN, PCA, MNIST, median-filter, confusion matrix, Leave-one-out cross-validation</p>
 
 
         </div>
     </div>
 
+
+    <div class="blog-card">
+        <div class="meta">
+            <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+
+            <ul class="details tags">
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Code</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <h1>Noisy MNIST classification</h1>
+            <h2>using KNN to classifiy a Noisy MNIST dataset</h2>
+            <p> KNN is a simple machine learning algorithm for classification tasks which requires no learning and works the best on medium-sized datasets. Here, I firstly clean the data using median filter and cropping, then I use PCA dimensionality reduction
+                tool to speed up KNN by reducing feature dimension as well as increase feature quality. Finally, the model's performance is evaluated using the Leave-one-out cross-validation algorithm and confusion matrix is calculated on the testset</p>
+            <p style="color: burlywood;">keywords: KNN, PCA, MNIST, median-filter, confusion matrix, Leave-one-out cross-validation</p>
+
+
+        </div>
+    </div>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

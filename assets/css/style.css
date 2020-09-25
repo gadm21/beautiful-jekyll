@@ -110,6 +110,11 @@ p {
     max-width: 85%;
 }
 
+p .keywords {
+    color: burlywood;
+    font-weight: bold;
+}
+
 .intro a {
     border-bottom: 3px solid transparent;
     text-decoration: none;
@@ -365,10 +370,9 @@ input:checked+.slider:before {
 
 ul {
     list-style-type: none;
-    margin: 20px;
+    margin: 10px 20px 50px;
     padding: 0;
     overflow: hidden;
-    border: none;
     background-color: transparent;
 }
 
@@ -377,19 +381,21 @@ li {
 }
 
 li a {
+    border-color: red;
     display: block;
-    color: rgb(22, 30, 170);
+    color: rgba(22, 29, 170, 0.363);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: #ddd;
     text-decoration: none;
 }
 
 li a.active {
-    color: rgb(255, 255, 255);
-    background-color: rgb(22, 30, 170);
+    color: rgb(25, 31, 199);
+    text-decoration: none;
+    border-bottom: solid;
+    border-bottom-color: rgb(49, 17, 165);
 }
