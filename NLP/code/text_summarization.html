@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="utf-8" />
+<!-- saved from url=(0120)https://htmtopdf.herokuapp.com/ipynbviewer/temp/647d465763618631ab8e667588f4f8eb/text_summarization.html?t=1603314493717 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>simple_clean_working_image_captioning</title>
+<title>temp-160331449028339210</title>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="./text_summarization_files/require.min.js.download"></script>
+<script src="./text_summarization_files/jquery.min.js.download"></script>
 
 
 
@@ -13085,13 +13085,13 @@ div#notebook {
 </style>
 
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
-<link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="./text_summarization_files/custom.css">
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+    <script src="./text_summarization_files/MathJax.js.download"></script>
     <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
+    <script type="text/x-mathjax-config;executed=true">
     MathJax.Hub.Config({
         tex2jax: {
             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
@@ -13108,15 +13108,110 @@ div#notebook {
         }
     });
     </script>
-    <!-- End of mathjax configuration --></head>
-<body>
+    <!-- End of mathjax configuration --><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body style="" data-new-gr-c-s-check-loaded="14.980.0" data-pt-ext-theme="light" data-pt-ext-size="large"><div id="MathJax_Message" style="display: none;"></div>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="IMPORT-&amp;-DEFINE"><strong>IMPORT &amp; DEFINE</strong><a class="anchor-link" href="#IMPORT-&amp;-DEFINE">&#182;</a></h1>
+<h1 id="IMPORT-&amp;-DEFINE">IMPORT &amp; DEFINE<a class="anchor-link" href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/647d465763618631ab8e667588f4f8eb/text_summarization.html?t=1603314493717#IMPORT-&amp;-DEFINE">¶</a></h1>
 </div>
 </div>
 </div>
@@ -13125,31 +13220,43 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">capture</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="n">capture</span> 
 
-from tensorflow import keras 
-import keras.layers as L 
-import keras.backend as K
-from keras.optimizers import Adam 
-from keras.optimizers.schedules import ExponentialDecay
-from keras.utils import to_categorical
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>  
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
+<span class="kn">import</span> <span class="nn">pickle</span>
+<span class="kn">import</span> <span class="nn">re</span>           
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">from</span> <span class="nn">bs4</span> <span class="k">import</span> <span class="n">BeautifulSoup</span> 
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="k">import</span> <span class="n">train_test_split</span>
+<span class="kn">from</span> <span class="nn">keras.preprocessing.text</span> <span class="k">import</span> <span class="n">Tokenizer</span> 
+<span class="kn">from</span> <span class="nn">keras.preprocessing.sequence</span> <span class="k">import</span> <span class="n">pad_sequences</span>
+<span class="kn">from</span> <span class="nn">nltk.corpus</span> <span class="k">import</span> <span class="n">stopwords</span>   
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span> 
+<span class="kn">from</span> <span class="nn">tensorflow.keras.layers</span> <span class="k">import</span> <span class="n">Input</span><span class="p">,</span> <span class="n">LSTM</span><span class="p">,</span> <span class="n">Embedding</span><span class="p">,</span> <span class="n">Dense</span><span class="p">,</span> <span class="n">Concatenate</span><span class="p">,</span> <span class="n">TimeDistributed</span><span class="p">,</span> <span class="n">Bidirectional</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.models</span> <span class="k">import</span> <span class="n">Model</span>
+<span class="kn">from</span> <span class="nn">tensorflow.keras.callbacks</span> <span class="k">import</span> <span class="n">EarlyStopping</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
-import numpy as np 
-import cv2 
-import pickle 
-import random 
+<span class="kn">from</span> <span class="nn">tensorflow.python.keras.layers</span> <span class="k">import</span> <span class="n">Layer</span>
+<span class="kn">from</span> <span class="nn">tensorflow.python.keras</span> <span class="k">import</span> <span class="n">backend</span> <span class="k">as</span> <span class="n">K</span>
 
-import re
-import nltk
-nltk.download(&quot;popular&quot;)
-from nltk.corpus import stopwords 
-stop_words = set(stopwords.words(&#39;english&#39;))
+<span class="kn">import</span> <span class="nn">nltk</span>
+<span class="n">nltk</span><span class="o">.</span><span class="n">download</span><span class="p">(</span><span class="s1">'stopwords'</span><span class="p">)</span>
+<span class="n">stop_words</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">stopwords</span><span class="o">.</span><span class="n">words</span><span class="p">(</span><span class="s1">'english'</span><span class="p">))</span>
+</pre></div>
 
+    </div>
+</div>
+</div>
 
-PAD = &quot;#PAD#&quot;
-UNK = &quot;#UNK#&quot; 
-START = &quot;#START#&quot; 
-END = &quot;#END#&quot;
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dataset_downloaded</span> <span class="o">=</span> <span class="kc">False</span>
 </pre></div>
 
     </div>
@@ -13160,7 +13267,7 @@ END = &quot;#END#&quot;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="FUNCTIONS"><strong>FUNCTIONS</strong><a class="anchor-link" href="#FUNCTIONS">&#182;</a></h1>
+<h1 id="FUNCTIONS">FUNCTIONS<a class="anchor-link" href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/647d465763618631ab8e667588f4f8eb/text_summarization.html?t=1603314493717#FUNCTIONS">¶</a></h1>
 </div>
 </div>
 </div>
@@ -13169,117 +13276,253 @@ END = &quot;#END#&quot;
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">read_pickle</span><span class="p">(</span><span class="n">pickle_file</span><span class="p">):</span>
-  <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">pickle_file</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span> <span class="p">:</span>
-    <span class="k">return</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
-
-<span class="k">def</span> <span class="nf">show_image</span><span class="p">(</span><span class="n">image</span><span class="p">):</span>
-  <span class="kn">from</span> <span class="nn">google.colab.patches</span> <span class="kn">import</span> <span class="n">cv2_imshow</span>
-  <span class="n">cv2_imshow</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
 
 
+<span class="n">contraction_mapping</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"ain't"</span><span class="p">:</span> <span class="s2">"is not"</span><span class="p">,</span> <span class="s2">"aren't"</span><span class="p">:</span> <span class="s2">"are not"</span><span class="p">,</span><span class="s2">"can't"</span><span class="p">:</span> <span class="s2">"cannot"</span><span class="p">,</span> <span class="s2">"'cause"</span><span class="p">:</span> <span class="s2">"because"</span><span class="p">,</span> <span class="s2">"could've"</span><span class="p">:</span> <span class="s2">"could have"</span><span class="p">,</span> <span class="s2">"couldn't"</span><span class="p">:</span> <span class="s2">"could not"</span><span class="p">,</span>
+
+                           <span class="s2">"didn't"</span><span class="p">:</span> <span class="s2">"did not"</span><span class="p">,</span> <span class="s2">"doesn't"</span><span class="p">:</span> <span class="s2">"does not"</span><span class="p">,</span> <span class="s2">"don't"</span><span class="p">:</span> <span class="s2">"do not"</span><span class="p">,</span> <span class="s2">"hadn't"</span><span class="p">:</span> <span class="s2">"had not"</span><span class="p">,</span> <span class="s2">"hasn't"</span><span class="p">:</span> <span class="s2">"has not"</span><span class="p">,</span> <span class="s2">"haven't"</span><span class="p">:</span> <span class="s2">"have not"</span><span class="p">,</span>
+
+                           <span class="s2">"he'd"</span><span class="p">:</span> <span class="s2">"he would"</span><span class="p">,</span><span class="s2">"he'll"</span><span class="p">:</span> <span class="s2">"he will"</span><span class="p">,</span> <span class="s2">"he's"</span><span class="p">:</span> <span class="s2">"he is"</span><span class="p">,</span> <span class="s2">"how'd"</span><span class="p">:</span> <span class="s2">"how did"</span><span class="p">,</span> <span class="s2">"how'd'y"</span><span class="p">:</span> <span class="s2">"how do you"</span><span class="p">,</span> <span class="s2">"how'll"</span><span class="p">:</span> <span class="s2">"how will"</span><span class="p">,</span> <span class="s2">"how's"</span><span class="p">:</span> <span class="s2">"how is"</span><span class="p">,</span>
+
+                           <span class="s2">"I'd"</span><span class="p">:</span> <span class="s2">"I would"</span><span class="p">,</span> <span class="s2">"I'd've"</span><span class="p">:</span> <span class="s2">"I would have"</span><span class="p">,</span> <span class="s2">"I'll"</span><span class="p">:</span> <span class="s2">"I will"</span><span class="p">,</span> <span class="s2">"I'll've"</span><span class="p">:</span> <span class="s2">"I will have"</span><span class="p">,</span><span class="s2">"I'm"</span><span class="p">:</span> <span class="s2">"I am"</span><span class="p">,</span> <span class="s2">"I've"</span><span class="p">:</span> <span class="s2">"I have"</span><span class="p">,</span> <span class="s2">"i'd"</span><span class="p">:</span> <span class="s2">"i would"</span><span class="p">,</span>
+
+                           <span class="s2">"i'd've"</span><span class="p">:</span> <span class="s2">"i would have"</span><span class="p">,</span> <span class="s2">"i'll"</span><span class="p">:</span> <span class="s2">"i will"</span><span class="p">,</span>  <span class="s2">"i'll've"</span><span class="p">:</span> <span class="s2">"i will have"</span><span class="p">,</span><span class="s2">"i'm"</span><span class="p">:</span> <span class="s2">"i am"</span><span class="p">,</span> <span class="s2">"i've"</span><span class="p">:</span> <span class="s2">"i have"</span><span class="p">,</span> <span class="s2">"isn't"</span><span class="p">:</span> <span class="s2">"is not"</span><span class="p">,</span> <span class="s2">"it'd"</span><span class="p">:</span> <span class="s2">"it would"</span><span class="p">,</span>
+
+                           <span class="s2">"it'd've"</span><span class="p">:</span> <span class="s2">"it would have"</span><span class="p">,</span> <span class="s2">"it'll"</span><span class="p">:</span> <span class="s2">"it will"</span><span class="p">,</span> <span class="s2">"it'll've"</span><span class="p">:</span> <span class="s2">"it will have"</span><span class="p">,</span><span class="s2">"it's"</span><span class="p">:</span> <span class="s2">"it is"</span><span class="p">,</span> <span class="s2">"let's"</span><span class="p">:</span> <span class="s2">"let us"</span><span class="p">,</span> <span class="s2">"ma'am"</span><span class="p">:</span> <span class="s2">"madam"</span><span class="p">,</span>
+
+                           <span class="s2">"mayn't"</span><span class="p">:</span> <span class="s2">"may not"</span><span class="p">,</span> <span class="s2">"might've"</span><span class="p">:</span> <span class="s2">"might have"</span><span class="p">,</span><span class="s2">"mightn't"</span><span class="p">:</span> <span class="s2">"might not"</span><span class="p">,</span><span class="s2">"mightn't've"</span><span class="p">:</span> <span class="s2">"might not have"</span><span class="p">,</span> <span class="s2">"must've"</span><span class="p">:</span> <span class="s2">"must have"</span><span class="p">,</span>
+
+                           <span class="s2">"mustn't"</span><span class="p">:</span> <span class="s2">"must not"</span><span class="p">,</span> <span class="s2">"mustn't've"</span><span class="p">:</span> <span class="s2">"must not have"</span><span class="p">,</span> <span class="s2">"needn't"</span><span class="p">:</span> <span class="s2">"need not"</span><span class="p">,</span> <span class="s2">"needn't've"</span><span class="p">:</span> <span class="s2">"need not have"</span><span class="p">,</span><span class="s2">"o'clock"</span><span class="p">:</span> <span class="s2">"of the clock"</span><span class="p">,</span>
+
+                           <span class="s2">"oughtn't"</span><span class="p">:</span> <span class="s2">"ought not"</span><span class="p">,</span> <span class="s2">"oughtn't've"</span><span class="p">:</span> <span class="s2">"ought not have"</span><span class="p">,</span> <span class="s2">"shan't"</span><span class="p">:</span> <span class="s2">"shall not"</span><span class="p">,</span> <span class="s2">"sha'n't"</span><span class="p">:</span> <span class="s2">"shall not"</span><span class="p">,</span> <span class="s2">"shan't've"</span><span class="p">:</span> <span class="s2">"shall not have"</span><span class="p">,</span>
+
+                           <span class="s2">"she'd"</span><span class="p">:</span> <span class="s2">"she would"</span><span class="p">,</span> <span class="s2">"she'd've"</span><span class="p">:</span> <span class="s2">"she would have"</span><span class="p">,</span> <span class="s2">"she'll"</span><span class="p">:</span> <span class="s2">"she will"</span><span class="p">,</span> <span class="s2">"she'll've"</span><span class="p">:</span> <span class="s2">"she will have"</span><span class="p">,</span> <span class="s2">"she's"</span><span class="p">:</span> <span class="s2">"she is"</span><span class="p">,</span>
+
+                           <span class="s2">"should've"</span><span class="p">:</span> <span class="s2">"should have"</span><span class="p">,</span> <span class="s2">"shouldn't"</span><span class="p">:</span> <span class="s2">"should not"</span><span class="p">,</span> <span class="s2">"shouldn't've"</span><span class="p">:</span> <span class="s2">"should not have"</span><span class="p">,</span> <span class="s2">"so've"</span><span class="p">:</span> <span class="s2">"so have"</span><span class="p">,</span><span class="s2">"so's"</span><span class="p">:</span> <span class="s2">"so as"</span><span class="p">,</span>
+
+                           <span class="s2">"this's"</span><span class="p">:</span> <span class="s2">"this is"</span><span class="p">,</span><span class="s2">"that'd"</span><span class="p">:</span> <span class="s2">"that would"</span><span class="p">,</span> <span class="s2">"that'd've"</span><span class="p">:</span> <span class="s2">"that would have"</span><span class="p">,</span> <span class="s2">"that's"</span><span class="p">:</span> <span class="s2">"that is"</span><span class="p">,</span> <span class="s2">"there'd"</span><span class="p">:</span> <span class="s2">"there would"</span><span class="p">,</span>
+
+                           <span class="s2">"there'd've"</span><span class="p">:</span> <span class="s2">"there would have"</span><span class="p">,</span> <span class="s2">"there's"</span><span class="p">:</span> <span class="s2">"there is"</span><span class="p">,</span> <span class="s2">"here's"</span><span class="p">:</span> <span class="s2">"here is"</span><span class="p">,</span><span class="s2">"they'd"</span><span class="p">:</span> <span class="s2">"they would"</span><span class="p">,</span> <span class="s2">"they'd've"</span><span class="p">:</span> <span class="s2">"they would have"</span><span class="p">,</span>
+
+                           <span class="s2">"they'll"</span><span class="p">:</span> <span class="s2">"they will"</span><span class="p">,</span> <span class="s2">"they'll've"</span><span class="p">:</span> <span class="s2">"they will have"</span><span class="p">,</span> <span class="s2">"they're"</span><span class="p">:</span> <span class="s2">"they are"</span><span class="p">,</span> <span class="s2">"they've"</span><span class="p">:</span> <span class="s2">"they have"</span><span class="p">,</span> <span class="s2">"to've"</span><span class="p">:</span> <span class="s2">"to have"</span><span class="p">,</span>
+
+                           <span class="s2">"wasn't"</span><span class="p">:</span> <span class="s2">"was not"</span><span class="p">,</span> <span class="s2">"we'd"</span><span class="p">:</span> <span class="s2">"we would"</span><span class="p">,</span> <span class="s2">"we'd've"</span><span class="p">:</span> <span class="s2">"we would have"</span><span class="p">,</span> <span class="s2">"we'll"</span><span class="p">:</span> <span class="s2">"we will"</span><span class="p">,</span> <span class="s2">"we'll've"</span><span class="p">:</span> <span class="s2">"we will have"</span><span class="p">,</span> <span class="s2">"we're"</span><span class="p">:</span> <span class="s2">"we are"</span><span class="p">,</span>
+
+                           <span class="s2">"we've"</span><span class="p">:</span> <span class="s2">"we have"</span><span class="p">,</span> <span class="s2">"weren't"</span><span class="p">:</span> <span class="s2">"were not"</span><span class="p">,</span> <span class="s2">"what'll"</span><span class="p">:</span> <span class="s2">"what will"</span><span class="p">,</span> <span class="s2">"what'll've"</span><span class="p">:</span> <span class="s2">"what will have"</span><span class="p">,</span> <span class="s2">"what're"</span><span class="p">:</span> <span class="s2">"what are"</span><span class="p">,</span>
+
+                           <span class="s2">"what's"</span><span class="p">:</span> <span class="s2">"what is"</span><span class="p">,</span> <span class="s2">"what've"</span><span class="p">:</span> <span class="s2">"what have"</span><span class="p">,</span> <span class="s2">"when's"</span><span class="p">:</span> <span class="s2">"when is"</span><span class="p">,</span> <span class="s2">"when've"</span><span class="p">:</span> <span class="s2">"when have"</span><span class="p">,</span> <span class="s2">"where'd"</span><span class="p">:</span> <span class="s2">"where did"</span><span class="p">,</span> <span class="s2">"where's"</span><span class="p">:</span> <span class="s2">"where is"</span><span class="p">,</span>
+
+                           <span class="s2">"where've"</span><span class="p">:</span> <span class="s2">"where have"</span><span class="p">,</span> <span class="s2">"who'll"</span><span class="p">:</span> <span class="s2">"who will"</span><span class="p">,</span> <span class="s2">"who'll've"</span><span class="p">:</span> <span class="s2">"who will have"</span><span class="p">,</span> <span class="s2">"who's"</span><span class="p">:</span> <span class="s2">"who is"</span><span class="p">,</span> <span class="s2">"who've"</span><span class="p">:</span> <span class="s2">"who have"</span><span class="p">,</span>
+
+                           <span class="s2">"why's"</span><span class="p">:</span> <span class="s2">"why is"</span><span class="p">,</span> <span class="s2">"why've"</span><span class="p">:</span> <span class="s2">"why have"</span><span class="p">,</span> <span class="s2">"will've"</span><span class="p">:</span> <span class="s2">"will have"</span><span class="p">,</span> <span class="s2">"won't"</span><span class="p">:</span> <span class="s2">"will not"</span><span class="p">,</span> <span class="s2">"won't've"</span><span class="p">:</span> <span class="s2">"will not have"</span><span class="p">,</span>
+
+                           <span class="s2">"would've"</span><span class="p">:</span> <span class="s2">"would have"</span><span class="p">,</span> <span class="s2">"wouldn't"</span><span class="p">:</span> <span class="s2">"would not"</span><span class="p">,</span> <span class="s2">"wouldn't've"</span><span class="p">:</span> <span class="s2">"would not have"</span><span class="p">,</span> <span class="s2">"y'all"</span><span class="p">:</span> <span class="s2">"you all"</span><span class="p">,</span>
+
+                           <span class="s2">"y'all'd"</span><span class="p">:</span> <span class="s2">"you all would"</span><span class="p">,</span><span class="s2">"y'all'd've"</span><span class="p">:</span> <span class="s2">"you all would have"</span><span class="p">,</span><span class="s2">"y'all're"</span><span class="p">:</span> <span class="s2">"you all are"</span><span class="p">,</span><span class="s2">"y'all've"</span><span class="p">:</span> <span class="s2">"you all have"</span><span class="p">,</span>
+
+                           <span class="s2">"you'd"</span><span class="p">:</span> <span class="s2">"you would"</span><span class="p">,</span> <span class="s2">"you'd've"</span><span class="p">:</span> <span class="s2">"you would have"</span><span class="p">,</span> <span class="s2">"you'll"</span><span class="p">:</span> <span class="s2">"you will"</span><span class="p">,</span> <span class="s2">"you'll've"</span><span class="p">:</span> <span class="s2">"you will have"</span><span class="p">,</span>
+
+                           <span class="s2">"you're"</span><span class="p">:</span> <span class="s2">"you are"</span><span class="p">,</span> <span class="s2">"you've"</span><span class="p">:</span> <span class="s2">"you have"</span><span class="p">}</span>
+
+<span class="k">class</span> <span class="nc">AttentionLayer</span><span class="p">(</span><span class="n">Layer</span><span class="p">):</span>
+  <span class="sd">'''</span>
+<span class="sd">    This class implements Bahdanau attention</span>
+<span class="sd">  '''</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="nb">super</span><span class="p">(</span><span class="n">AttentionLayer</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> 
+  
+  <span class="k">def</span> <span class="nf">build</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_shape</span><span class="p">):</span>
+
+    <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">input_shape</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> 
+
+    <span class="c1">#create a trainable weight variable for this layer </span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">w_a</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">add_weight</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'w_a'</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">TensorShape</span><span class="p">((</span><span class="n">input_shape</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span> <span class="n">input_shape</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">])),</span> <span class="n">initializer</span><span class="o">=</span> <span class="s1">'uniform'</span><span class="p">,</span> <span class="n">trainable</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">u_a</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">add_weight</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'u_a'</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">TensorShape</span><span class="p">((</span><span class="n">input_shape</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span> <span class="n">input_shape</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">])),</span> <span class="n">initializer</span><span class="o">=</span> <span class="s1">'uniform'</span><span class="p">,</span> <span class="n">trainable</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span> 
+    <span class="bp">self</span><span class="o">.</span><span class="n">v_a</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">add_weight</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'v_a'</span><span class="p">,</span> <span class="n">shape</span><span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">TensorShape</span><span class="p">((</span><span class="n">input_shape</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">2</span><span class="p">],</span> <span class="mi">1</span><span class="p">)),</span> <span class="n">initializer</span><span class="o">=</span> <span class="s1">'uniform'</span><span class="p">,</span> <span class="n">trainable</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+
+    <span class="nb">super</span><span class="p">(</span><span class="n">AttentionLayer</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">build</span><span class="p">(</span><span class="n">input_shape</span><span class="p">)</span> 
+  
+  <span class="k">def</span> <span class="nf">call</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">verbose</span> <span class="o">=</span> <span class="kc">False</span><span class="p">):</span>
+    <span class="sd">'''</span>
+<span class="sd">      inputs: [encoder_output_sequence, decoder_output_sequence] </span>
+<span class="sd">    '''</span> 
+    <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="n">inputs</span><span class="p">)</span> <span class="o">==</span> <span class="nb">list</span> 
+    <span class="n">encoder_out_seq</span><span class="p">,</span> <span class="n">decoder_out_seq</span> <span class="o">=</span> <span class="n">inputs</span> 
+    <span class="k">if</span> <span class="n">verbose</span> <span class="p">:</span> 
+      <span class="nb">print</span><span class="p">(</span><span class="s2">"encoder out seq:"</span><span class="p">,</span> <span class="n">encoder_out_seq</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> 
+      <span class="nb">print</span><span class="p">(</span><span class="s2">"decoder out seq:"</span><span class="p">,</span> <span class="n">decoder_out_seq</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> 
+
+    <span class="k">def</span> <span class="nf">energy_step</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="n">states</span><span class="p">):</span>
+      <span class="sd">'''</span>
+<span class="sd">        step function for computing energy for a single decoder state</span>
+<span class="sd">      '''</span>
+      <span class="n">assert_msg</span> <span class="o">=</span> <span class="s1">'states must be a list. However, states </span><span class="si">{}</span><span class="s1"> is of type </span><span class="si">{}</span><span class="s1">'</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">states</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">states</span><span class="p">))</span> 
+      <span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">states</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">or</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">states</span><span class="p">,</span> <span class="nb">tuple</span><span class="p">),</span> <span class="n">assert_msg</span> 
+
+      <span class="sd">''' some parameters required for computing energy for as single decoder state '''</span>
+      <span class="n">en_seq_len</span><span class="p">,</span> <span class="n">en_hidden</span> <span class="o">=</span> <span class="n">encoder_out_seq</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">encoder_out_seq</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+      <span class="n">de_hidden</span> <span class="o">=</span> <span class="n">inputs</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> 
+
+      <span class="sd">''' computing s.wa where s=[s0, s1, ..., si] '''</span>
+      <span class="c1"># &lt;= batch_size*en_seq_len, latent_dim </span>
+      <span class="n">reshaped_enc_outputs</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">encoder_out_seq</span><span class="p">,</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">en_hidden</span><span class="p">))</span> 
+      <span class="c1"># &lt;= batch_size*en_seq_len, latent_dim </span>
+      <span class="n">w_a_dot_s</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">K</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">reshaped_enc_outputs</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">w_a</span><span class="p">),</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">en_seq_len</span><span class="p">,</span> <span class="n">en_hidden</span><span class="p">))</span> 
+      <span class="k">if</span> <span class="n">verbose</span> <span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">"wa.s&gt;"</span><span class="p">,</span> <span class="n">w_a_dot_s</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> 
+
+      <span class="sd">'''computing hj.ua '''</span>
+      <span class="n">u_a_dot_h</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">K</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">u_a</span><span class="p">),</span> <span class="mi">1</span><span class="p">)</span> <span class="c1"># &lt;= batch_size, 1, latent_dim </span>
+      <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">"ua.h"</span><span class="p">,</span> <span class="n">u_a_dot_h</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> 
+
+      <span class="sd">''' tanh(s.wa + hj.ua) '''</span>
+      <span class="c1"># &lt;= batch_size*en_seq_len, latent_dim </span>
+      <span class="n">reshaped_ws_plus_uh</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">tanh</span><span class="p">(</span><span class="n">K</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">w_a_dot_s</span> <span class="o">+</span> <span class="n">u_a_dot_h</span><span class="p">,</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">en_hidden</span><span class="p">)))</span> 
+      <span class="k">if</span> <span class="n">verbose</span> <span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">"ws+uh&gt;"</span><span class="p">,</span> <span class="n">reshaped_ws_plus_uh</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> 
+
+      <span class="sd">'''softmax(va.tanh(s.wa+hj.ua))'''</span>
+      <span class="c1"># &lt;= batch_size, en_seq_len </span>
+      <span class="n">e_i</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">K</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">reshaped_ws_plus_uh</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">v_a</span><span class="p">),</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">en_seq_len</span><span class="p">))</span> 
+      <span class="c1"># &lt;= batch_size, en_seq_len </span>
+      <span class="n">e_i</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">e_i</span><span class="p">)</span> 
+
+      <span class="k">if</span> <span class="n">verbose</span> <span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">"ei&gt;"</span><span class="p">,</span> <span class="n">e_i</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> 
+
+      <span class="k">return</span> <span class="n">e_i</span><span class="p">,</span> <span class="p">[</span><span class="n">e_i</span><span class="p">]</span> 
+    
+    <span class="k">def</span> <span class="nf">context_step</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="n">states</span><span class="p">):</span>
+      <span class="sd">'''step function for computing ci using ei '''</span>
+      <span class="n">c_i</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">encoder_out_seq</span><span class="o">*</span><span class="n">K</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> 
+      <span class="k">if</span> <span class="n">verbose</span> <span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="s2">"ci&gt;"</span><span class="p">,</span> <span class="n">c_i</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> 
+      <span class="k">return</span> <span class="n">c_i</span><span class="p">,</span> <span class="p">[</span><span class="n">c_i</span><span class="p">]</span> 
+
+    <span class="k">def</span> <span class="nf">create_initial_state</span><span class="p">(</span><span class="n">inputs</span><span class="p">,</span> <span class="n">hidden_size</span><span class="p">):</span>
+      <span class="c1">#we are not using initial states, ut need to pass something to K.rnn function </span>
+      <span class="n">fake_state</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">inputs</span><span class="p">)</span> <span class="c1"># &lt;= (batch_size, enc_seq_len, latent_dim) </span>
+      <span class="n">fake_state</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">fake_state</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">])</span> <span class="c1"># &lt;= (batch_size) </span>
+      <span class="n">fake_state</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">fake_state</span><span class="p">)</span> <span class="c1"># &lt;= (batch_size, 1) </span>
+      <span class="n">fake_state</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">tile</span><span class="p">(</span><span class="n">fake_state</span><span class="p">,</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="n">hidden_size</span><span class="p">])</span> <span class="c1"># &lt;= (batch_size, latent_dim) </span>
+      <span class="k">return</span> <span class="n">fake_state</span> 
+
+    <span class="n">fake_state_c</span> <span class="o">=</span> <span class="n">create_initial_state</span><span class="p">(</span><span class="n">encoder_out_seq</span><span class="p">,</span> <span class="n">encoder_out_seq</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span> 
+    <span class="n">fake_state_e</span> <span class="o">=</span> <span class="n">create_initial_state</span><span class="p">(</span><span class="n">encoder_out_seq</span><span class="p">,</span> <span class="n">encoder_out_seq</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="c1"># &lt;= (batch_size, enc_seq_len, latent_dim) </span>
+
+    <span class="sd">'''computing energy outputs'''</span>
+    <span class="c1"># e_outputs =&gt; (batch_size, de_seq_len, en_seq_len)  </span>
+    <span class="n">last_out</span><span class="p">,</span> <span class="n">e_outputs</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">rnn</span><span class="p">(</span><span class="n">energy_step</span><span class="p">,</span> <span class="n">decoder_out_seq</span><span class="p">,</span> <span class="p">[</span><span class="n">fake_state_e</span><span class="p">])</span> 
+
+    <span class="sd">'''computing context vectors'''</span>
+    <span class="n">last_out</span><span class="p">,</span> <span class="n">c_outputs</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">K</span><span class="o">.</span><span class="n">rnn</span><span class="p">(</span><span class="n">context_step</span><span class="p">,</span> <span class="n">e_outputs</span><span class="p">,</span> <span class="p">[</span><span class="n">fake_state_c</span><span class="p">])</span>
+
+    <span class="k">return</span> <span class="n">c_outputs</span><span class="p">,</span> <span class="n">e_outputs</span> 
+  
+  <span class="k">def</span> <span class="nf">compute_output_shape</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">input_shape</span><span class="p">):</span>
+    <span class="sd">'''</span>
+<span class="sd">      outputs produced by the layer</span>
+<span class="sd">    '''</span>
+    <span class="k">return</span> <span class="p">[</span>
+            <span class="n">tf</span><span class="o">.</span><span class="n">TensorShape</span><span class="p">((</span><span class="n">input_shape</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">input_shape</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span> <span class="n">input_shape</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">2</span><span class="p">])),</span>
+            <span class="n">tf</span><span class="o">.</span><span class="n">TensorShape</span><span class="p">((</span><span class="n">input_shape</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">input_shape</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span> <span class="n">input_shape</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">]))</span>
+    <span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">get_dataset</span><span class="p">():</span>
+  <span class="err">!</span><span class="n">wget</span> <span class="o">--</span><span class="n">load</span><span class="o">-</span><span class="n">cookies</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">cookies</span><span class="o">.</span><span class="n">txt</span>\
+   <span class="s2">"https://docs.google.com/uc?export=download&amp;confirm=$(wget --quiet --save-cookies /tmp/cookies.txt</span><span class="se">\</span>
+<span class="s2">    --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&amp;id=1EzY1IfN_QGCVp9EUVxZ3dZhRF_EUtyJA' -O- </span><span class="se">\</span>
+<span class="s2">    | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/</span><span class="se">\1\n</span><span class="s2">/p')&amp;id=1EzY1IfN_QGCVp9EUVxZ3dZhRF_EUtyJA"</span> <span class="o">-</span><span class="n">O</span> <span class="n">kaggle</span><span class="o">.</span><span class="n">json</span> <span class="o">&amp;&amp;</span> <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">cookies</span><span class="o">.</span><span class="n">txt</span>
+
+  <span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">kaggle</span>
+
+  <span class="err">!</span><span class="n">mkdir</span> <span class="o">~/.</span><span class="n">kaggle</span>
+  <span class="err">!</span><span class="n">cp</span> <span class="n">kaggle</span><span class="o">.</span><span class="n">json</span> <span class="o">~/.</span><span class="n">kaggle</span><span class="o">/</span>
+  <span class="err">!</span><span class="n">chmod</span> <span class="mi">600</span> <span class="o">~/.</span><span class="n">kaggle</span><span class="o">/</span><span class="n">kaggle</span><span class="o">.</span><span class="n">json</span>
+
+  <span class="err">!</span><span class="n">kaggle</span> <span class="n">datasets</span> <span class="n">download</span> <span class="o">-</span><span class="n">d</span> <span class="n">snap</span><span class="o">/</span><span class="n">amazon</span><span class="o">-</span><span class="n">fine</span><span class="o">-</span><span class="n">food</span><span class="o">-</span><span class="n">reviews</span>
+  <span class="err">!</span><span class="n">unzip</span> <span class="s1">'amazon-fine-food-reviews.zip'</span>
 
 
-<span class="k">def</span> <span class="nf">seq_generator</span><span class="p">(</span><span class="n">image_embeddings</span><span class="p">,</span> <span class="n">captions</span><span class="p">,</span> <span class="n">SENTENCE_LEN</span><span class="p">,</span> <span class="n">padding_element</span><span class="p">,</span> <span class="n">NUM_WORDS</span><span class="p">,</span> <span class="n">batch_size</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">get_embeddings_matrix</span><span class="p">(</span><span class="n">glove</span><span class="p">,</span> <span class="n">word2ix</span><span class="p">,</span> <span class="n">word_embed_size</span> <span class="o">=</span> <span class="mi">200</span><span class="p">,</span> <span class="n">vocab_size</span> <span class="o">=</span> <span class="mi">5000</span><span class="p">):</span>
+  <span class="n">embeddings_matrix</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">vocab_size</span><span class="p">,</span> <span class="n">word_embed_size</span><span class="p">))</span>
 
-  <span class="k">def</span> <span class="nf">pad_sequence</span><span class="p">(</span><span class="n">seq</span><span class="p">,</span> <span class="n">seq_len</span><span class="p">,</span> <span class="n">padding_element</span><span class="p">):</span>
-    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">seq_len</span><span class="p">:</span> <span class="k">return</span> <span class="n">seq</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">seq_len</span><span class="p">]</span> 
-    <span class="k">else</span><span class="p">:</span> <span class="k">return</span> <span class="n">seq</span> <span class="o">+</span> <span class="p">[</span><span class="n">padding_element</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="n">seq_len</span><span class="o">-</span><span class="nb">len</span><span class="p">(</span><span class="n">seq</span><span class="p">))</span>
+  <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">index</span> <span class="ow">in</span> <span class="n">word2ix</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">embed_vec</span> <span class="o">=</span> <span class="n">glove</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">word</span><span class="p">)</span> 
+    <span class="k">if</span> <span class="n">embed_vec</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="p">:</span>
+      <span class="n">embeddings_matrix</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="n">embed_vec</span> 
+  
+  <span class="k">return</span> <span class="n">embeddings_matrix</span> 
 
-  <span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[]</span> 
-  <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">def</span> <span class="nf">get_glove_200</span><span class="p">():</span>
 
-  <span class="k">while</span> <span class="kc">True</span> <span class="p">:</span>
-    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">caption</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">captions</span><span class="p">):</span>
-      <span class="n">n</span> <span class="o">+=</span> <span class="mi">1</span> 
-      <span class="n">seq</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">caption</span><span class="p">)</span>
-      <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">seq</span><span class="p">)):</span>
-        <span class="n">inseq</span><span class="p">,</span> <span class="n">outseq</span> <span class="o">=</span> <span class="n">seq</span><span class="p">[:</span><span class="n">j</span><span class="p">],</span> <span class="n">seq</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> 
-        <span class="n">x1</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">image_embeddings</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
-        <span class="n">x2</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">pad_sequence</span><span class="p">(</span><span class="n">inseq</span><span class="p">,</span> <span class="n">SENTENCE_LEN</span><span class="p">,</span> <span class="n">padding_element</span><span class="p">))</span>
-        <span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">to_categorical</span><span class="p">([</span><span class="n">outseq</span><span class="p">],</span> <span class="n">NUM_WORDS</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="p">)</span>
-      <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="n">batch_size</span> <span class="p">:</span>
-        <span class="k">yield</span> <span class="p">([</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">x1</span><span class="p">),</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">x2</span><span class="p">)],</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
-        <span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[]</span> 
-        <span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
-
-<span class="k">def</span> <span class="nf">get_num_sentences</span><span class="p">(</span><span class="n">captions</span><span class="p">):</span>
-  <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="n">captions</span><span class="p">)</span> <span class="o">*</span> <span class="mi">5</span>
-
-<span class="k">def</span> <span class="nf">split_sentence</span><span class="p">(</span><span class="n">sentence</span><span class="p">):</span>
-  <span class="k">return</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span> <span class="ow">and</span> <span class="n">x</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">stop_words</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;\W+&#39;</span><span class="p">,</span> <span class="n">sentence</span><span class="o">.</span><span class="n">lower</span><span class="p">())))</span>
-
-<span class="k">def</span> <span class="nf">get_max_len</span><span class="p">(</span><span class="n">captions</span><span class="p">):</span>
-  <span class="n">maxlength</span> <span class="o">=</span> <span class="mi">0</span> 
-  <span class="k">for</span> <span class="n">caption</span> <span class="ow">in</span> <span class="n">captions</span><span class="p">:</span>
-    <span class="k">for</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">caption</span><span class="p">:</span>
-      <span class="n">maxlength</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">maxlength</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">sentence</span><span class="p">))</span>
-  <span class="k">return</span> <span class="n">maxlength</span>
-
-<span class="k">def</span> <span class="nf">get_vocab</span><span class="p">(</span><span class="n">captions</span><span class="p">,</span> <span class="n">vocab_size</span><span class="p">):</span>
-  <span class="n">vocab</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
-  <span class="k">for</span> <span class="n">caption</span> <span class="ow">in</span> <span class="n">captions</span> <span class="p">:</span>
-    <span class="k">for</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">caption</span><span class="p">:</span>
-      <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">split_sentence</span><span class="p">(</span><span class="n">sentence</span><span class="p">):</span>
-        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">word</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">3</span> <span class="ow">or</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">stop_words</span><span class="p">:</span> <span class="k">continue</span> 
-        <span class="k">if</span> <span class="n">word</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;.&#39;</span> <span class="p">:</span> <span class="n">word</span> <span class="o">=</span> <span class="n">word</span><span class="p">[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="n">vocab</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="n">vocab</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">word</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
-
-  <span class="n">vocab</span> <span class="o">=</span> <span class="p">[</span><span class="n">word</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">vocab</span><span class="o">.</span><span class="n">items</span><span class="p">(),</span> <span class="n">key</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">item</span> <span class="p">:</span> <span class="n">item</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">reverse</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)][</span><span class="mi">0</span><span class="p">:</span> <span class="n">vocab_size</span><span class="o">-</span><span class="mi">4</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="n">PAD</span><span class="p">,</span> <span class="n">UNK</span><span class="p">,</span> <span class="n">START</span><span class="p">,</span> <span class="n">END</span><span class="p">]</span>
-  <span class="n">word2ix</span> <span class="o">=</span> <span class="p">{</span><span class="n">word</span><span class="p">:</span><span class="n">index</span> <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">)}</span> 
-  <span class="n">ix2word</span> <span class="o">=</span> <span class="p">{</span><span class="n">index</span><span class="p">:</span><span class="n">word</span> <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">word</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">vocab</span><span class="p">)}</span> 
-  <span class="k">return</span> <span class="n">vocab</span><span class="p">,</span> <span class="n">word2ix</span><span class="p">,</span> <span class="n">ix2word</span>
-
-<span class="k">def</span> <span class="nf">captions2captions</span><span class="p">(</span><span class="n">captions</span><span class="p">,</span> <span class="n">word2ix</span><span class="p">):</span>
-  <span class="n">new_captions</span> <span class="o">=</span> <span class="p">[]</span> 
-  <span class="k">for</span> <span class="n">caption</span> <span class="ow">in</span> <span class="n">captions</span> <span class="p">:</span> 
-    <span class="n">new_caption</span> <span class="o">=</span> <span class="p">[]</span> 
-    <span class="k">for</span> <span class="n">sentence</span> <span class="ow">in</span> <span class="n">caption</span><span class="p">:</span>
-      <span class="c1">#there&#39;s a problem here, if a word ends with &#39;.&#39; it will be ignored while we ideally want to just erase the &#39;.&#39; and get the word</span>
-      <span class="n">new_caption</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="n">word2ix</span><span class="p">[</span><span class="n">START</span><span class="p">]]</span> <span class="o">+</span> <span class="p">[</span><span class="n">word2ix</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="k">for</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">split_sentence</span><span class="p">(</span><span class="n">sentence</span><span class="p">)</span> <span class="k">if</span> <span class="n">word</span> <span class="ow">in</span> <span class="n">word2ix</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="n">word2ix</span><span class="p">[</span><span class="n">END</span><span class="p">]])</span>
-    <span class="n">new_captions</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_caption</span><span class="p">)</span>
-  <span class="k">return</span> <span class="n">new_captions</span>
+  <span class="k">def</span> <span class="nf">read_pickle</span><span class="p">(</span><span class="n">pickle_file</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">pickle_file</span><span class="p">,</span> <span class="s1">'rb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span> <span class="p">:</span>
+      <span class="k">return</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+   
+  <span class="err">!</span><span class="n">wget</span> <span class="o">--</span><span class="n">load</span><span class="o">-</span><span class="n">cookies</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">cookies</span><span class="o">.</span><span class="n">txt</span> <span class="s2">"https://docs.google.com/uc?export=download&amp;confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&amp;id=10Xgw5e157bD3z7cJG2_0DLmZSwGzXh8c' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/</span><span class="se">\1\n</span><span class="s2">/p')&amp;id=10Xgw5e157bD3z7cJG2_0DLmZSwGzXh8c"</span> <span class="o">-</span><span class="n">O</span> <span class="n">glove_200</span><span class="o">.</span><span class="n">pickle</span> <span class="o">&amp;&amp;</span> <span class="n">rm</span> <span class="o">-</span><span class="n">rf</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">cookies</span><span class="o">.</span><span class="n">txt</span>
+  <span class="n">glove_200</span> <span class="o">=</span> <span class="n">read_pickle</span><span class="p">(</span><span class="s1">'glove_200.pickle'</span><span class="p">)</span> 
+  <span class="k">return</span> <span class="n">glove_200</span> 
 
 
-<span class="k">def</span> <span class="nf">build_model</span><span class="p">(</span><span class="n">SENTENCE_LEN</span><span class="p">,</span> <span class="n">NUM_WORDS</span><span class="p">,</span> <span class="n">WORD_EMBED_SIZE</span><span class="p">,</span> <span class="n">LSTM_UNITS</span><span class="p">):</span>
-  <span class="n">image_features</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2048</span><span class="p">,))</span> 
-  <span class="n">densed_IF</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="mi">256</span><span class="p">)(</span><span class="n">image_features</span><span class="p">)</span> 
-  <span class="n">densed_IF</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="n">WORD_EMBED_SIZE</span><span class="p">)(</span><span class="n">densed_IF</span><span class="p">)</span>
-  <span class="n">initial_state</span> <span class="o">=</span> <span class="p">[</span><span class="n">densed_IF</span><span class="p">,</span> <span class="n">densed_IF</span><span class="p">]</span>
+<span class="k">def</span> <span class="nf">cleaner</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">maxlen</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span> <span class="n">RemoveStopWords</span> <span class="o">=</span> <span class="kc">True</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">clean</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">threshold</span><span class="p">,</span> <span class="n">RemoveStopWords</span><span class="p">):</span> 
+    <span class="n">newtext</span> <span class="o">=</span> <span class="n">text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> 
+    <span class="n">newtext</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">newtext</span><span class="p">,</span> <span class="s1">'lxml'</span><span class="p">)</span><span class="o">.</span><span class="n">text</span> 
+    <span class="n">newtext</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">'\([^)]*\)'</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">newtext</span><span class="p">)</span>
+    <span class="n">newtext</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s1">'"'</span><span class="p">,</span> <span class="s1">''</span><span class="p">,</span> <span class="n">newtext</span><span class="p">)</span> 
+    <span class="n">newtext</span> <span class="o">=</span> <span class="s1">' '</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">contraction_mapping</span><span class="p">[</span><span class="n">t</span><span class="p">]</span> <span class="k">if</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">contraction_mapping</span> <span class="k">else</span> <span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">newtext</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">" "</span><span class="p">)])</span>
+    <span class="n">newtext</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">"'s\b"</span><span class="p">,</span><span class="s2">""</span><span class="p">,</span><span class="n">newtext</span><span class="p">)</span>        <span class="c1">#?</span>
+    <span class="n">newtext</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="s2">"[^a-zA-Z]"</span><span class="p">,</span> <span class="s2">" "</span><span class="p">,</span> <span class="n">newtext</span><span class="p">)</span> <span class="c1">#?</span>
+    <span class="k">if</span> <span class="n">RemoveStopWords</span> <span class="p">:</span> <span class="n">tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">w</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">newtext</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">" "</span><span class="p">)</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">stop_words</span><span class="p">]</span>
+    <span class="k">else</span> <span class="p">:</span> <span class="n">tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">w</span> <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">newtext</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">" "</span><span class="p">)]</span>
 
-  <span class="n">words</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Input</span><span class="p">(</span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="n">SENTENCE_LEN</span><span class="p">,))</span>
-  <span class="n">words_embeddings</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Embedding</span><span class="p">(</span><span class="n">NUM_WORDS</span><span class="p">,</span> <span class="n">WORD_EMBED_SIZE</span><span class="p">)(</span><span class="n">words</span><span class="p">)</span> 
+    <span class="n">long_tokens</span> <span class="o">=</span> <span class="p">[</span><span class="n">t</span> <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">tokens</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="o">&gt;=</span><span class="n">threshold</span><span class="p">]</span>
+    <span class="k">return</span> <span class="p">(</span><span class="s2">" "</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">long_tokens</span><span class="p">))</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span>
+   
+  <span class="n">cleaned</span> <span class="o">=</span> <span class="p">[</span><span class="n">clean</span><span class="p">(</span><span class="n">d</span><span class="p">,</span> <span class="n">maxlen</span><span class="p">,</span> <span class="n">RemoveStopWords</span><span class="p">)</span> <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">data</span><span class="p">]</span> 
+  <span class="k">return</span> <span class="n">cleaned</span>
 
-  <span class="n">lstm_output</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">LSTM</span><span class="p">(</span><span class="n">LSTM_UNITS</span><span class="p">)(</span><span class="n">inputs</span> <span class="o">=</span> <span class="n">words_embeddings</span><span class="p">,</span> <span class="n">initial_state</span> <span class="o">=</span> <span class="n">initial_state</span><span class="p">)</span> 
+<span class="k">def</span> <span class="nf">get_model</span><span class="p">(</span><span class="n">embeddings_matrix</span><span class="p">,</span> <span class="n">max_len_text</span><span class="p">,</span> <span class="n">x_voc_size</span><span class="p">,</span> <span class="n">y_voc_size</span><span class="p">,</span> <span class="n">latent_dim</span> <span class="o">=</span> <span class="mi">500</span><span class="p">):</span>
 
-  <span class="n">decoded_words1</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="mi">512</span><span class="p">,</span> <span class="n">activation</span> <span class="o">=</span> <span class="s1">&#39;relu&#39;</span><span class="p">)(</span><span class="n">lstm_output</span><span class="p">)</span> 
-  <span class="n">decoded_words2</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="mi">1024</span><span class="p">,</span> <span class="n">activation</span> <span class="o">=</span> <span class="s1">&#39;relu&#39;</span><span class="p">)(</span><span class="n">decoded_words1</span><span class="p">)</span>
-  <span class="n">final_output</span> <span class="o">=</span> <span class="n">L</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="n">NUM_WORDS</span><span class="p">,</span> <span class="n">activation</span> <span class="o">=</span> <span class="s1">&#39;softmax&#39;</span><span class="p">)(</span><span class="n">decoded_words2</span><span class="p">)</span> 
+  <span class="c1">#Encoder</span>
+  <span class="n">encoder_inputs</span> <span class="o">=</span> <span class="n">Input</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="n">max_len_text</span><span class="p">,))</span>
+  <span class="n">enc_emb</span> <span class="o">=</span> <span class="n">Embedding</span><span class="p">(</span><span class="n">x_voc_size</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="n">weights</span> <span class="o">=</span> <span class="p">[</span><span class="n">embeddings_matrix</span><span class="p">],</span> <span class="n">input_length</span> <span class="o">=</span> <span class="n">max_len_text</span><span class="p">,</span> <span class="n">trainable</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)(</span><span class="n">encoder_inputs</span><span class="p">)</span>
 
-  <span class="n">model</span> <span class="o">=</span> <span class="n">keras</span><span class="o">.</span><span class="n">Model</span><span class="p">(</span><span class="n">inputs</span> <span class="o">=</span> <span class="p">[</span><span class="n">image_features</span><span class="p">,</span> <span class="n">words</span><span class="p">],</span> <span class="n">outputs</span> <span class="o">=</span> <span class="n">final_output</span><span class="p">)</span> 
+  <span class="c1">#LSTM 1 </span>
+  <span class="n">encoder_lstm1</span> <span class="o">=</span> <span class="n">LSTM</span><span class="p">(</span><span class="n">latent_dim</span><span class="p">,</span> <span class="n">return_sequences</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">return_state</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+  <span class="n">encoder_output1</span><span class="p">,</span> <span class="n">state_h1</span><span class="p">,</span> <span class="n">state_c1</span> <span class="o">=</span> <span class="n">encoder_lstm1</span><span class="p">(</span><span class="n">enc_emb</span><span class="p">)</span> 
+
+  <span class="c1">#LSTM 2</span>
+  <span class="n">encoder_lstm2</span> <span class="o">=</span> <span class="n">LSTM</span><span class="p">(</span><span class="n">latent_dim</span><span class="p">,</span> <span class="n">return_sequences</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">return_state</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> 
+  <span class="n">encoder_output2</span><span class="p">,</span> <span class="n">state_h2</span><span class="p">,</span> <span class="n">state_c2</span> <span class="o">=</span> <span class="n">encoder_lstm2</span><span class="p">(</span><span class="n">encoder_output1</span><span class="p">)</span> 
+
+  <span class="c1">#LSTM 3 </span>
+  <span class="n">encoder_lstm3</span> <span class="o">=</span> <span class="n">LSTM</span><span class="p">(</span><span class="n">latent_dim</span><span class="p">,</span> <span class="n">return_sequences</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">return_state</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>  
+  <span class="n">encoder_outputs</span><span class="p">,</span> <span class="n">state_h</span><span class="p">,</span> <span class="n">state_c</span> <span class="o">=</span> <span class="n">encoder_lstm3</span><span class="p">(</span><span class="n">encoder_output2</span><span class="p">)</span> 
+  <span class="nb">print</span><span class="p">(</span><span class="s2">"encoder outputs shape:"</span><span class="p">,</span> <span class="n">encoder_outputs</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> 
+
+  <span class="c1">#set up the decoder </span>
+  <span class="n">decoder_inputs</span> <span class="o">=</span> <span class="n">Input</span><span class="p">(</span><span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="kc">None</span><span class="p">,))</span>
+  <span class="n">dec_emb_layer</span> <span class="o">=</span> <span class="n">Embedding</span><span class="p">(</span><span class="n">x_voc_size</span><span class="p">,</span> <span class="mi">200</span><span class="p">,</span> <span class="n">weights</span><span class="o">=</span> <span class="p">[</span><span class="n">embeddings_matrix</span><span class="p">],</span> <span class="n">input_length</span> <span class="o">=</span> <span class="n">max_len_text</span><span class="p">,</span> <span class="n">trainable</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+  <span class="n">dec_emb</span> <span class="o">=</span> <span class="n">dec_emb_layer</span><span class="p">(</span><span class="n">decoder_inputs</span><span class="p">)</span> 
+
+  <span class="c1">#LSTM using encoder_states as initial state </span>
+  <span class="n">decoder_lstm</span> <span class="o">=</span> <span class="n">LSTM</span><span class="p">(</span><span class="n">latent_dim</span><span class="p">,</span> <span class="n">return_sequences</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">return_state</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span> 
+  <span class="n">decoder_outputs</span><span class="p">,</span> <span class="n">decoder_fwd_state</span><span class="p">,</span> <span class="n">decoder_back_state</span> <span class="o">=</span> <span class="n">decoder_lstm</span><span class="p">(</span><span class="n">dec_emb</span><span class="p">,</span> <span class="n">initial_state</span> <span class="o">=</span> <span class="p">[</span><span class="n">state_h</span><span class="p">,</span> <span class="n">state_c</span><span class="p">])</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">"decoder_outputs shape:"</span><span class="p">,</span> <span class="n">decoder_outputs</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span> 
+
+  <span class="c1">#attention layer </span>
+  <span class="n">attn_layer</span> <span class="o">=</span> <span class="n">AttentionLayer</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">'attention_layer'</span><span class="p">)</span> 
+  <span class="n">attn_out</span><span class="p">,</span> <span class="n">attn_states</span> <span class="o">=</span> <span class="n">attn_layer</span><span class="p">([</span><span class="n">encoder_outputs</span><span class="p">,</span> <span class="n">decoder_outputs</span><span class="p">])</span> 
+
+  <span class="c1">#concatenate attention output and decoder LSTM output </span>
+  <span class="n">decoder_concat_input</span> <span class="o">=</span> <span class="n">Concatenate</span><span class="p">(</span><span class="n">axis</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">'concat_layer'</span><span class="p">)([</span><span class="n">decoder_outputs</span><span class="p">,</span> <span class="n">attn_out</span><span class="p">])</span>
+
+  <span class="c1">#Dense layer</span>
+  <span class="n">decoder_dense</span> <span class="o">=</span> <span class="n">TimeDistributed</span><span class="p">(</span><span class="n">Dense</span><span class="p">(</span><span class="n">y_voc_size</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">'softmax'</span><span class="p">))</span> 
+  <span class="n">decoder_outputs</span> <span class="o">=</span> <span class="n">decoder_dense</span><span class="p">(</span><span class="n">decoder_concat_input</span><span class="p">)</span> 
+
+  <span class="c1">#Define the model </span>
+  <span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="p">([</span><span class="n">encoder_inputs</span><span class="p">,</span> <span class="n">decoder_inputs</span><span class="p">],</span> <span class="n">decoder_outputs</span><span class="p">)</span> 
   <span class="k">return</span> <span class="n">model</span>
-
-<span class="k">def</span> <span class="nf">download_data</span><span class="p">():</span>
-
-  <span class="o">!</span>wget --load-cookies /tmp/cookies.txt <span class="s2">&quot;https://docs.google.com/uc?export=download&amp;confirm=</span><span class="k">$(</span>wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate <span class="s1">&#39;https://docs.google.com/uc?export=download&amp;id=1-5AhtN3za59P6WsHBhVRw7Lonx4wk6xu&#39;</span> -O- <span class="p">|</span> sed -rn <span class="s1">&#39;s/.*confirm=([0-9A-Za-z_]+).*/\1\n/p&#39;</span><span class="k">)</span><span class="s2">&amp;id=1-5AhtN3za59P6WsHBhVRw7Lonx4wk6xu&quot;</span> -O train_image_features.pickle <span class="o">&amp;&amp;</span> rm -rf /tmp/cookies.txt
-  <span class="n">train_image_embeds</span> <span class="o">=</span> <span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;train_image_features.pickle&#39;</span><span class="p">)</span> 
-
-  <span class="o">!</span>wget --load-cookies /tmp/cookies.txt <span class="s2">&quot;https://docs.google.com/uc?export=download&amp;confirm=</span><span class="k">$(</span>wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate <span class="s1">&#39;https://docs.google.com/uc?export=download&amp;id=1--FpSwNWO9X8l5YneuTHcs--EtJlJZOP&#39;</span> -O- <span class="p">|</span> sed -rn <span class="s1">&#39;s/.*confirm=([0-9A-Za-z_]+).*/\1\n/p&#39;</span><span class="k">)</span><span class="s2">&amp;id=1--FpSwNWO9X8l5YneuTHcs--EtJlJZOP&quot;</span> -O val_image_embeds.pickle <span class="o">&amp;&amp;</span> rm -rf /tmp/cookies.txt
-  <span class="n">val_image_embeds</span> <span class="o">=</span> <span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;val_image_embeds.pickle&#39;</span><span class="p">)</span> 
-
-  <span class="o">!</span>wget --load-cookies /tmp/cookies.txt <span class="s2">&quot;https://docs.google.com/uc?export=download&amp;confirm=</span><span class="k">$(</span>wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate <span class="s1">&#39;https://docs.google.com/uc?export=download&amp;id=1-729Stj7PWEztvH-YVJ_nivo4QmGR-ro&#39;</span> -O- <span class="p">|</span> sed -rn <span class="s1">&#39;s/.*confirm=([0-9A-Za-z_]+).*/\1\n/p&#39;</span><span class="k">)</span><span class="s2">&amp;id=1-729Stj7PWEztvH-YVJ_nivo4QmGR-ro&quot;</span> -O train_captions.pickle <span class="o">&amp;&amp;</span> rm -rf /tmp/cookies.txt
-  <span class="n">train_captions</span> <span class="o">=</span> <span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;train_captions.pickle&#39;</span><span class="p">)</span> 
-
-  <span class="o">!</span>wget --load-cookies /tmp/cookies.txt <span class="s2">&quot;https://docs.google.com/uc?export=download&amp;confirm=</span><span class="k">$(</span>wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate <span class="s1">&#39;https://docs.google.com/uc?export=download&amp;id=1-1WfbEjN052jaHSUb4h5J_t9BIgziSP3&#39;</span> -O- <span class="p">|</span> sed -rn <span class="s1">&#39;s/.*confirm=([0-9A-Za-z_]+).*/\1\n/p&#39;</span><span class="k">)</span><span class="s2">&amp;id=1-1WfbEjN052jaHSUb4h5J_t9BIgziSP3&quot;</span> -O val_captions.pickle <span class="o">&amp;&amp;</span> rm -rf /tmp/cookies.txt
-  <span class="n">val_captions</span> <span class="o">=</span> <span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;val_captions.pickle&#39;</span><span class="p">)</span> 
-
-  <span class="o">!</span>wget --load-cookies /tmp/cookies.txt <span class="s2">&quot;https://docs.google.com/uc?export=download&amp;confirm=</span><span class="k">$(</span>wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate <span class="s1">&#39;https://docs.google.com/uc?export=download&amp;id=1-77wJhnWLCnvmBOvOFuQrAv_ekjE-ooa&#39;</span> -O- <span class="p">|</span> sed -rn <span class="s1">&#39;s/.*confirm=([0-9A-Za-z_]+).*/\1\n/p&#39;</span><span class="k">)</span><span class="s2">&amp;id=1-77wJhnWLCnvmBOvOFuQrAv_ekjE-ooa&quot;</span> -O train_image_fns.pickle <span class="o">&amp;&amp;</span> rm -rf /tmp/cookies.txt
-  <span class="n">train_image_fns</span> <span class="o">=</span> <span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;train_image_fns.pickle&#39;</span><span class="p">)</span> 
-
-  <span class="o">!</span>wget --load-cookies /tmp/cookies.txt <span class="s2">&quot;https://docs.google.com/uc?export=download&amp;confirm=</span><span class="k">$(</span>wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate <span class="s1">&#39;https://docs.google.com/uc?export=download&amp;id=1-2HLbOGLT4E9V_IywjwNWBviyz49QjrY&#39;</span> -O- <span class="p">|</span> sed -rn <span class="s1">&#39;s/.*confirm=([0-9A-Za-z_]+).*/\1\n/p&#39;</span><span class="k">)</span><span class="s2">&amp;id=1-2HLbOGLT4E9V_IywjwNWBviyz49QjrY&quot;</span> -O val_image_fns.pickle <span class="o">&amp;&amp;</span> rm -rf /tmp/cookies.txt
-  <span class="n">val_image_fns</span> <span class="o">=</span> <span class="n">read_pickle</span><span class="p">(</span><span class="s1">&#39;val_image_fns.pickle&#39;</span><span class="p">)</span> 
-
-  <span class="k">return</span> <span class="n">train_image_embeds</span><span class="p">,</span> <span class="n">val_image_embeds</span><span class="p">,</span> <span class="n">train_captions</span><span class="p">,</span> <span class="n">val_captions</span><span class="p">,</span> <span class="n">train_image_fns</span><span class="p">,</span> <span class="n">val_image_fns</span> 
 </pre></div>
 
     </div>
@@ -13290,7 +13533,7 @@ END = &quot;#END#&quot;
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="CAPTIONS"><strong>CAPTIONS</strong><a class="anchor-link" href="#CAPTIONS">&#182;</a></h1>
+<h1 id="Download-&amp;-clean">Download &amp; clean<a class="anchor-link" href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/647d465763618631ab8e667588f4f8eb/text_summarization.html?t=1603314493717#Download-&amp;-clean">¶</a></h1>
 </div>
 </div>
 </div>
@@ -13299,28 +13542,21 @@ END = &quot;#END#&quot;
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">capture</span> 
-train_image_embeds, val_image_embeds, train_captions, val_captions, train_image_fns, val_image_fns = download_data() 
-all_captions = train_captions + val_captions 
-</pre></div>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
 
-    </div>
-</div>
-</div>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">dataset_downloaded</span> <span class="p">:</span>
+  <span class="n">dataset_downloaded</span> <span class="o">=</span> <span class="kc">True</span>
+  <span class="n">get_dataset</span><span class="p">()</span>
+  
+<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"Reviews.csv"</span><span class="p">)</span> 
+<span class="n">data</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="p">[</span><span class="s1">'Text'</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span> 
+<span class="n">data</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> 
 
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">NUM_WORDS</span> <span class="o">=</span> <span class="mi">5000</span>
-<span class="n">NUM_SENTENCES</span> <span class="o">=</span> <span class="n">get_num_sentences</span><span class="p">(</span><span class="n">train_captions</span><span class="p">)</span> 
-<span class="n">SENTENCE_LEN</span> <span class="o">=</span> <span class="mi">20</span>
-<span class="n">WORD_EMBED_SIZE</span> <span class="o">=</span> <span class="mi">200</span>
 
-<span class="n">VOCAB</span><span class="p">,</span> <span class="n">word2ix</span><span class="p">,</span> <span class="n">ix2word</span> <span class="o">=</span> <span class="n">get_vocab</span><span class="p">(</span><span class="n">all_captions</span><span class="p">,</span> <span class="n">vocab_size</span> <span class="o">=</span> <span class="n">NUM_WORDS</span><span class="p">)</span> 
-<span class="n">train_captions_ix</span> <span class="o">=</span> <span class="n">captions2captions</span><span class="p">(</span><span class="n">train_captions</span><span class="p">,</span> <span class="n">word2ix</span><span class="p">)</span>
+<span class="n">Text</span> <span class="o">=</span> <span class="n">cleaner</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">'Text'</span><span class="p">],</span> <span class="n">maxlen</span> <span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">Summary</span> <span class="o">=</span> <span class="n">cleaner</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">'Summary'</span><span class="p">],</span> <span class="n">maxlen</span> <span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">RemoveStopWords</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>  
+
+<span class="n">Summary</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'_START_ '</span> <span class="o">+</span> <span class="n">s</span> <span class="o">+</span> <span class="s1">' _END_'</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">Summary</span><span class="p">]</span>
 </pre></div>
 
     </div>
@@ -13331,14 +13567,7 @@ all_captions = train_captions + val_captions
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="MODEL"><strong>MODEL</strong><a class="anchor-link" href="#MODEL">&#182;</a></h1>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="TRAIN-&amp;-SAVE">TRAIN &amp; SAVE<a class="anchor-link" href="#TRAIN-&amp;-SAVE">&#182;</a></h2>
+<h1 id="Explore">Explore<a class="anchor-link" href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/647d465763618631ab8e667588f4f8eb/text_summarization.html?t=1603314493717#Explore">¶</a></h1>
 </div>
 </div>
 </div>
@@ -13347,11 +13576,136 @@ all_captions = train_captions + val_captions
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">K</span><span class="o">.</span><span class="n">clear_session</span><span class="p">()</span> 
-<span class="n">model</span> <span class="o">=</span> <span class="n">build_model</span><span class="p">(</span><span class="n">SENTENCE_LEN</span><span class="p">,</span> <span class="n">NUM_WORDS</span><span class="p">,</span> <span class="n">WORD_EMBED_SIZE</span><span class="p">,</span> <span class="n">LSTM_UNITS</span> <span class="o">=</span> <span class="mi">200</span><span class="p">)</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Text</span><span class="p">[:</span><span class="mi">10</span><span class="p">]</span>
+</pre></div>
 
-<span class="n">scheduler</span> <span class="o">=</span> <span class="n">ExponentialDecay</span><span class="p">(</span><span class="n">initial_learning_rate</span><span class="o">=</span> <span class="mf">1e-3</span><span class="p">,</span> <span class="n">decay_rate</span> <span class="o">=</span> <span class="mf">0.93</span><span class="p">,</span> <span class="n">decay_steps</span> <span class="o">=</span> <span class="mi">10000</span><span class="p">)</span>
-<span class="n">model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">loss</span> <span class="o">=</span> <span class="s1">&#39;categorical_crossentropy&#39;</span><span class="p">,</span> <span class="n">optimizer</span> <span class="o">=</span> <span class="n">Adam</span><span class="p">(</span><span class="n">scheduler</span><span class="p">))</span>
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>['bought several vitality canned dog food products found good quality product looks like stew processed meat smells better labrador finicky appreciates product better',
+ 'product arrived labeled jumbo salted peanuts peanuts actually small sized unsalted sure error vendor intended represent product jumbo',
+ 'confection around centuries light pillowy citrus gelatin nuts case filberts cut tiny squares liberally coated powdered sugar tiny mouthful heaven chewy flavorful highly recommend yummy treat familiar story lewis lion witch wardrobe treat seduces edmund selling brother sisters witch',
+ 'looking secret ingredient robitussin believe found got addition root beer extract ordered made cherry soda flavor medicinal',
+ 'great taffy great price wide assortment yummy taffy delivery quick taffy lover deal',
+ 'got wild hair taffy ordered five pound bag taffy enjoyable many flavors watermelon root beer melon peppermint grape etc complaint bit much red black licorice flavored pieces kids husband lasted two weeks would recommend brand taffy delightful treat',
+ 'saltwater taffy great flavors soft chewy candy individually wrapped well none candies stuck together happen expensive version fralinger would highly recommend candy served beach themed party everyone loved',
+ 'taffy good soft chewy flavors amazing would definitely recommend buying satisfying',
+ 'right mostly sprouting cats eat grass love rotate around wheatgrass rye',
+ 'healthy dog food good digestion also good small puppies dog eats required amount every feeding']</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">Summary</span><span class="p">[:</span><span class="mi">10</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[&nbsp;]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>['_START_ good quality dog food _END_',
+ '_START_ not as advertised _END_',
+ '_START_ delight says it all _END_',
+ '_START_ cough medicine _END_',
+ '_START_ great taffy _END_',
+ '_START_ nice taffy _END_',
+ '_START_ great just as good as the expensive brands _END_',
+ '_START_ wonderful tasty taffy _END_',
+ '_START_ yay barley _END_',
+ '_START_ healthy dog food _END_']</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sentence_length_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s1">'Text sentence length'</span><span class="p">:[</span><span class="nb">len</span><span class="p">(</span><span class="n">sent</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">" "</span><span class="p">))</span> <span class="k">for</span> <span class="n">sent</span> <span class="ow">in</span> <span class="n">Text</span><span class="p">],</span> <span class="s1">'Summary sentence length'</span><span class="p">:[</span><span class="nb">len</span><span class="p">(</span><span class="n">sent</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">" "</span><span class="p">))</span> <span class="k">for</span> <span class="n">sent</span> <span class="ow">in</span> <span class="n">Summary</span><span class="p">]})</span>
+<span class="n">sentence_length_df</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">bins</span> <span class="o">=</span> <span class="mi">200</span><span class="p">,</span> <span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span> 
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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">
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Tokenize">Tokenize<a class="anchor-link" href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/647d465763618631ab8e667588f4f8eb/text_summarization.html?t=1603314493717#Tokenize">¶</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">TEXT_MAXLEN</span> <span class="o">=</span> <span class="mi">80</span>
+<span class="n">SUMMARY_MAXLEN</span> <span class="o">=</span> <span class="mi">10</span> 
+
+<span class="n">x_train</span><span class="p">,</span> <span class="n">x_val</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_val</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">Text</span><span class="p">,</span> <span class="n">Summary</span><span class="p">,</span> <span class="n">test_size</span> <span class="o">=</span> <span class="mf">0.1</span><span class="p">,</span><span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13364,13 +13718,79 @@ all_captions = train_captions + val_captions
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">epochs</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">BS</span> <span class="o">=</span> <span class="mi">50</span>
-<span class="n">steps</span> <span class="o">=</span> <span class="n">NUM_SENTENCES</span> <span class="o">//</span> <span class="n">BS</span>
-<span class="n">train_generator</span> <span class="o">=</span> <span class="n">seq_generator</span><span class="p">(</span><span class="n">train_image_embeds</span><span class="p">,</span> <span class="n">train_captions_ix</span><span class="p">,</span> <span class="n">SENTENCE_LEN</span><span class="p">,</span> <span class="n">word2ix</span><span class="p">[</span><span class="n">PAD</span><span class="p">],</span> <span class="n">NUM_WORDS</span><span class="p">,</span> <span class="n">batch_size</span> <span class="o">=</span> <span class="n">BS</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x_tokenizer</span> <span class="o">=</span> <span class="n">Tokenizer</span><span class="p">()</span> 
+<span class="n">x_tokenizer</span><span class="o">.</span><span class="n">fit_on_texts</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">x_train</span><span class="p">))</span>
 
-<span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">epochs</span><span class="p">)</span> <span class="p">:</span>
-  <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">train_generator</span><span class="p">,</span> <span class="n">epochs</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">steps_per_epoch</span> <span class="o">=</span> <span class="n">steps</span><span class="p">,</span> <span class="n">verbose</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> 
+<span class="c1">#convert text sequence into integer sequence </span>
+<span class="n">x_train</span> <span class="o">=</span> <span class="n">x_tokenizer</span><span class="o">.</span><span class="n">texts_to_sequences</span><span class="p">(</span><span class="n">x_train</span><span class="p">)</span> 
+<span class="n">x_val</span> <span class="o">=</span> <span class="n">x_tokenizer</span><span class="o">.</span><span class="n">texts_to_sequences</span><span class="p">(</span><span class="n">x_val</span><span class="p">)</span> 
+
+<span class="c1">#padding with zeros </span>
+<span class="n">x_train</span> <span class="o">=</span> <span class="n">pad_sequences</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">maxlen</span> <span class="o">=</span> <span class="n">TEXT_MAXLEN</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s1">'post'</span><span class="p">)</span> 
+<span class="n">x_val</span> <span class="o">=</span> <span class="n">pad_sequences</span><span class="p">(</span><span class="n">x_val</span><span class="p">,</span> <span class="n">maxlen</span> <span class="o">=</span> <span class="n">SUMMARY_MAXLEN</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s1">'post'</span><span class="p">)</span> 
+
+<span class="n">X_VOCAB_SIZE</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">x_tokenizer</span><span class="o">.</span><span class="n">word_index</span><span class="p">)</span> <span class="o">+</span><span class="mi">1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_tokenizer</span> <span class="o">=</span> <span class="n">Tokenizer</span><span class="p">()</span> 
+<span class="n">y_tokenizer</span><span class="o">.</span><span class="n">fit_on_texts</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">y_train</span><span class="p">))</span> 
+
+<span class="n">y_train</span> <span class="o">=</span> <span class="n">y_tokenizer</span><span class="o">.</span><span class="n">texts_to_sequences</span><span class="p">(</span><span class="n">y_train</span><span class="p">)</span> 
+<span class="n">y_val</span> <span class="o">=</span> <span class="n">y_tokenizer</span><span class="o">.</span><span class="n">texts_to_sequences</span><span class="p">(</span><span class="n">y_val</span><span class="p">)</span> 
+
+<span class="n">y_train</span> <span class="o">=</span> <span class="n">pad_sequences</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">maxlen</span> <span class="o">=</span> <span class="n">SUMMARY_MAXLEN</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s1">'post'</span><span class="p">)</span> 
+<span class="n">y_val</span> <span class="o">=</span> <span class="n">pad_sequences</span><span class="p">(</span><span class="n">y_val</span><span class="p">,</span> <span class="n">maxlen</span> <span class="o">=</span> <span class="n">SUMMARY_MAXLEN</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s1">'post'</span><span class="p">)</span> 
+
+<span class="n">Y_VOCAB_SIZE</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">y_tokenizer</span><span class="o">.</span><span class="n">word_index</span><span class="p">)</span> <span class="o">+</span><span class="mi">1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="n">capture</span>
+
+<span class="n">glove_200</span> <span class="o">=</span> <span class="n">get_glove_200</span><span class="p">()</span> 
+<span class="n">embeddings_matrix</span> <span class="o">=</span> <span class="n">get_embeddings_matrix</span><span class="p">(</span><span class="n">glove</span><span class="o">=</span><span class="n">glove_200</span><span class="p">,</span> <span class="n">word2ix</span><span class="o">=</span> <span class="n">x_tokenizer</span><span class="o">.</span><span class="n">word_index</span><span class="p">,</span> <span class="n">word_embed_size</span> <span class="o">=</span> <span class="mi">200</span><span class="p">,</span> <span class="n">vocab_size</span> <span class="o">=</span> <span class="n">X_VOCAB_SIZE</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Model">Model<a class="anchor-link" href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/647d465763618631ab8e667588f4f8eb/text_summarization.html?t=1603314493717#Model">¶</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">K</span><span class="o">.</span><span class="n">clear_session</span><span class="p">()</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">get_model</span><span class="p">(</span><span class="n">embeddings_matrix</span><span class="p">,</span> <span class="n">TEXT_MAXLEN</span><span class="p">,</span> <span class="n">X_VOCAB_SIZE</span><span class="p">,</span> <span class="n">Y_VOCAB_SIZE</span><span class="p">)</span>
+<span class="n">model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">optimizer</span> <span class="o">=</span> <span class="s1">'rmsprop'</span><span class="p">,</span> <span class="n">loss</span> <span class="o">=</span> <span class="s1">'sparse_categorical_crossentropy'</span><span class="p">)</span> 
+<span class="n">es</span> <span class="o">=</span> <span class="n">EarlyStopping</span><span class="p">(</span><span class="n">monitor</span> <span class="o">=</span> <span class="s1">'val_loss'</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s1">'min'</span><span class="p">,</span> <span class="n">verbose</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13387,16 +13807,8 @@ all_captions = train_captions + val_captions
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>8278/8278 [==============================] - 246s 30ms/step - loss: 3.7889
-8278/8278 [==============================] - 240s 29ms/step - loss: 3.0566
-8278/8278 [==============================] - 238s 29ms/step - loss: 2.9034
-8278/8278 [==============================] - 240s 29ms/step - loss: 2.8114
-8278/8278 [==============================] - 237s 29ms/step - loss: 2.7491
-8278/8278 [==============================] - 236s 29ms/step - loss: 2.6986
-8278/8278 [==============================] - 237s 29ms/step - loss: 2.6576
-8278/8278 [==============================] - 237s 29ms/step - loss: 2.6211
-8278/8278 [==============================] - 236s 29ms/step - loss: 2.5885
-8278/8278 [==============================] - 235s 28ms/step - loss: 2.5622
+<pre>encoder outputs shape: (None, 80, 500)
+decoder_outputs shape: (None, None, 500)
 </pre>
 </div>
 </div>
@@ -13410,11 +13822,77 @@ all_captions = train_captions + val_captions
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model_path</span> <span class="o">=</span> <span class="s1">&#39;/content/drive/My Drive/image_caption_project/partial_model.h5&#39;</span>
-<span class="n">model</span><span class="o">.</span><span class="n">save_weights</span><span class="p">(</span><span class="n">model_path</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_in_seq</span> <span class="o">=</span> <span class="p">[</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">[:,</span> <span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> 
+<span class="n">train_out_seq</span> <span class="o">=</span> <span class="n">y_train</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">y_train</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y_train</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="mi">1</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">:]</span>
+<span class="n">val_in_seq</span> <span class="o">=</span> <span class="p">[</span><span class="n">x_val</span><span class="p">,</span> <span class="n">y_val</span><span class="p">[:,</span> <span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> 
+<span class="n">val_out_seq</span> <span class="o">=</span> <span class="n">y_val</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">y_val</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y_val</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="mi">1</span><span class="p">)[:,</span> <span class="mi">1</span><span class="p">:]</span> 
+<span class="n">history</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span> <span class="n">train_in_seq</span><span class="p">,</span> <span class="n">train_out_seq</span><span class="p">,</span> <span class="n">epochs</span> <span class="o">=</span> <span class="mi">50</span><span class="p">,</span> <span class="n">callbacks</span> <span class="o">=</span> <span class="p">[</span><span class="n">es</span><span class="p">],</span> <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">512</span><span class="p">,</span> <span class="n">validation_data</span> <span class="o">=</span> <span class="p">(</span><span class="n">val_in_seq</span><span class="p">,</span> <span class="n">val_out_seq</span><span class="p">))</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Epoch 1/50
+692/692 [==============================] - 376s 544ms/step - loss: 2.8786 - val_loss: 2.5896
+Epoch 2/50
+692/692 [==============================] - 375s 542ms/step - loss: 2.3599 - val_loss: 2.4943
+Epoch 3/50
+692/692 [==============================] - 375s 541ms/step - loss: 2.1851 - val_loss: 2.4898
+Epoch 4/50
+692/692 [==============================] - 374s 541ms/step - loss: 2.0808 - val_loss: 2.5129
+Epoch 00004: early stopping
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">matplotlib</span> <span class="k">import</span> <span class="n">pyplot</span> 
+<span class="n">pyplot</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">history</span><span class="o">.</span><span class="n">history</span><span class="p">[</span><span class="s1">'loss'</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s1">'train'</span><span class="p">)</span> 
+<span class="n">pyplot</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">history</span><span class="o">.</span><span class="n">history</span><span class="p">[</span><span class="s1">'val_loss'</span><span class="p">],</span> <span class="n">label</span><span class="o">=</span><span class="s1">'test'</span><span class="p">)</span> 
+<span class="n">pyplot</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span> 
+<span class="n">pyplot</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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">
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -13422,7 +13900,7 @@ all_captions = train_captions + val_captions
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="LOAD-&amp;-PLAY">LOAD &amp; PLAY<a class="anchor-link" href="#LOAD-&amp;-PLAY">&#182;</a></h2>
+<h1 id="PLAY">PLAY<a class="anchor-link" href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/647d465763618631ab8e667588f4f8eb/text_summarization.html?t=1603314493717#PLAY">¶</a></h1>
 </div>
 </div>
 </div>
@@ -13431,11 +13909,10 @@ all_captions = train_captions + val_captions
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model_path</span> <span class="o">=</span> <span class="s1">&#39;/content/drive/My Drive/image_caption_project/partial_model.h5&#39;</span>
-
-<span class="n">K</span><span class="o">.</span><span class="n">clear_session</span><span class="p">()</span> 
-<span class="n">model</span> <span class="o">=</span> <span class="n">build_model</span><span class="p">(</span><span class="n">SENTENCE_LEN</span><span class="p">,</span> <span class="n">NUM_WORDS</span><span class="p">,</span> <span class="n">WORD_EMBED_SIZE</span><span class="p">,</span> <span class="n">LSTM_UNITS</span> <span class="o">=</span> <span class="mi">200</span><span class="p">)</span> 
-<span class="n">model</span><span class="o">.</span><span class="n">load_weights</span><span class="p">(</span><span class="n">model_path</span><span class="p">)</span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x_i2w</span> <span class="o">=</span> <span class="n">x_tokenizer</span><span class="o">.</span><span class="n">index_word</span> 
+<span class="n">x_w2i</span> <span class="o">=</span> <span class="n">x_tokenizer</span><span class="o">.</span><span class="n">word_index</span>
+<span class="n">y_i2w</span> <span class="o">=</span> <span class="n">y_tokenizer</span><span class="o">.</span><span class="n">index_word</span> 
+<span class="n">y_w2i</span> <span class="o">=</span> <span class="n">y_tokenizer</span><span class="o">.</span><span class="n">word_index</span>
 </pre></div>
 
     </div>
@@ -13448,19 +13925,245 @@ all_captions = train_captions + val_captions
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">summarize</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="n">x_len</span><span class="p">,</span> <span class="n">y_len</span><span class="p">,</span> <span class="n">x_w2i</span><span class="p">,</span> <span class="n">y_w2i</span><span class="p">,</span> <span class="n">model</span> <span class="o">=</span> <span class="n">model</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">pad_seq</span><span class="p">(</span><span class="n">seq</span><span class="p">,</span> <span class="n">maxlen</span><span class="p">,</span> <span class="n">pad</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">maxlen</span><span class="p">:</span> <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">seq</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">maxlen</span><span class="p">]</span> <span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span> <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">seq</span> <span class="o">+</span> <span class="p">[</span><span class="n">pad</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="n">maxlen</span><span class="o">-</span><span class="nb">len</span><span class="p">(</span><span class="n">seq</span><span class="p">)))</span>
+
+  <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">sentence</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span> <span class="n">sentence</span> <span class="o">=</span> <span class="n">sentence</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">' '</span><span class="p">)</span> 
+  <span class="n">encoder_seq</span> <span class="o">=</span> <span class="n">pad_seq</span><span class="p">([</span><span class="n">x_w2i</span><span class="p">[</span><span class="n">s</span><span class="p">]</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">sentence</span><span class="p">],</span> <span class="n">maxlen</span><span class="o">=</span> <span class="n">x_len</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+  <span class="n">decoder_seq</span> <span class="o">=</span> <span class="n">pad_seq</span><span class="p">([</span><span class="n">y_w2i</span><span class="p">[</span><span class="s1">'start'</span><span class="p">]],</span> <span class="n">maxlen</span><span class="o">=</span> <span class="n">y_len</span><span class="p">,</span> <span class="n">pad</span><span class="o">=</span> <span class="mi">0</span><span class="p">)</span>  
+
+  <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">y_len</span><span class="p">):</span>
+    <span class="n">pred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">([</span><span class="n">encoder_seq</span><span class="p">,</span> <span class="n">decoder_seq</span><span class="p">])</span>
+    <span class="n">pred</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span> <span class="p">(</span><span class="n">pred</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">pred</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">2</span><span class="p">]))</span>
+    
+    <span class="n">word_idx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">pred</span><span class="p">[</span><span class="n">i</span><span class="p">,:])</span> 
+    <span class="k">if</span> <span class="n">word_idx</span><span class="o">==</span><span class="mi">0</span> <span class="p">:</span> <span class="k">break</span> 
+    <span class="k">if</span> <span class="n">word_idx</span><span class="o">==</span><span class="n">y_w2i</span><span class="p">[</span><span class="s1">'end'</span><span class="p">]</span> <span class="p">:</span> <span class="k">break</span>
+    <span class="n">decoder_seq</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">word_idx</span> 
+
+  <span class="k">return</span> <span class="n">decoder_seq</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">60</span><span class="p">,</span><span class="mi">100</span><span class="p">):</span>
+  <span class="n">sample_text</span> <span class="o">=</span> <span class="s1">' '</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">x_i2w</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">x_train</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">if</span> <span class="n">x</span><span class="o">!=</span><span class="mi">0</span><span class="p">])</span> 
+  <span class="n">sample_summary</span> <span class="o">=</span> <span class="s1">' '</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">y_i2w</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">y_train</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">:]</span> <span class="k">if</span> <span class="n">x</span><span class="o">!=</span><span class="mi">0</span> <span class="ow">and</span> <span class="n">y_i2w</span><span class="p">[</span><span class="n">x</span><span class="p">]</span><span class="o">!=</span><span class="s1">'end'</span><span class="p">])</span> 
+  
+  <span class="n">seq</span> <span class="o">=</span> <span class="n">summarize</span><span class="p">(</span><span class="n">sample_text</span><span class="p">,</span> <span class="n">TEXT_MAXLEN</span><span class="p">,</span> <span class="n">TEXT_MAXLEN</span><span class="p">,</span> <span class="n">x_w2i</span><span class="p">,</span> <span class="n">y_w2i</span><span class="p">)</span>
+  <span class="n">seq</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span>
+  <span class="n">seq</span> <span class="o">=</span> <span class="s1">' '</span><span class="o">.</span><span class="n">join</span><span class="p">([</span><span class="n">y_i2w</span><span class="p">[</span><span class="n">y</span><span class="p">]</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">seq</span> <span class="k">if</span> <span class="n">y</span><span class="o">!=</span><span class="mi">0</span><span class="p">])</span> 
+  <span class="nb">print</span><span class="p">(</span><span class="s2">"text:"</span><span class="p">,</span> <span class="n">sample_text</span><span class="p">)</span> 
+  <span class="nb">print</span><span class="p">(</span><span class="s2">"gt:"</span><span class="p">,</span> <span class="n">sample_summary</span><span class="p">)</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">"summary:"</span><span class="p">,</span> <span class="n">seq</span><span class="p">)</span>  
+  <span class="nb">print</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>text: kobe steaks four stars gripe problem size first cuts one inch thick ghastly offensive steak bare minimum two inches thick even associate proletarians imagine horrors people committ decent food cannot people eat sensibly please get started wanted include sterility drugs fast food particularly bargain menu merely hope dream another day secondly law somewhere steak less two pounds heavens fourteen ouncer mere sampler tease suppose cuts intended given away offensive stores yuppies flock lemmings cliff lastly must close review become distraught
+gt: okay for a casual get together
+summary: great
+
+text: really enjoy coffee nice island coconutty flavor definitely purchase coffee cups
+gt: yummy coffee
+summary: great
+
+text: using beef broccoli packets years easy mix water soy sauce favorite recipe replace beef shrimp super delicious
+gt: a family favorite
+summary: great for a great
+
+text: said high hopes whole flavored water thing think energy beverage craze joke ultimately product least comes one thing taste area merely tastes kind like kool aid fruit punch quite good also vaguely medicinal taste mentioned headline lingering aftertaste whether taste good depends much like flavor wishing diet coke around means bad product fairly sure could get effect sugar free kool aid like probably spend lot less money alternatively get good night sleep drink plain water eat orange pretty much outcome
+gt: slightly medicinal with a lingering aftertaste
+summary: great for the best ever
+
+text: arrived perfect condition hands best tasting honey ever use honey sweeten everything tried lot different ones favorite bottles size little bears perfect squeezing coffee tea pancakes etc
+gt: best tasting honey i have ever had
+summary: great
+
+text: really impressed durable bags tearing top put around top trash minimal overfill bags problem spillage breakage carrying trash purchase
+gt: impressed
+summary: great
+
+text: product melted extremely disfigured longer looked like sucker many different forms entire box ruined caramel longer sucker coming plastic beware buying extremely unhappy client party favors useless waste money
+gt: wish you could rate a zero
+summary: great for a bit the best
+
+text: glad bought tried like target beer bread tasted much better would buy
+gt: not as good as i thought
+summary: great
+
+text: first learned orzo food network channel tried loved local grocery began carry tri colored orzo bought loved particularly beauty three colors added dish store stopped carrying brand tri color orzo came home got line bought thru amazon happy find one favorite pastas given gifts everyone loves thanks pleased customer
+gt: rave review of orzo
+summary: great
+
+text: ordered case pumpernickel jalapeno cheddar sandwiches give friend going chemo radiation favorite amazed put order yesterday afternoon arrived morning great however disappointed expiration date bags feb weeks boo quality perspective
+gt: disappointed in age freshness of product
+summary: great product
+
+text: great candy bar cannot get enough peanuts mouth peel back wrapper see coating peanuts take bite get tasty peanut buttery treat center held together delicious caramel able get enough sweet nutty masterpiece snack craftsmanship run mill chocolate coated candy bar much also salty taste gives makes stand nut lovers nirvana everyone else darn fine snack
+gt: strictly for nut lovers
+summary: great for the best price
+
+text: yrs ago discovered son peanut allergy introduction soynut butter came curious chocolate flavor would like place could find amazon took plunge glad makes tasty sandwich jelly favorite bananas plain great use substitute recipes call peanut butter wish amazon would offer subscribe option keep stock regularly many months expensive buying anywhere else
+gt: love the soynut butter
+summary: the best ever
+
+text: order product matcha green tea powder love together order two love starbucks green tea latte taste saves money great buy cuz bottle way bigger looks picture
+gt: love
+summary: great product
+
+text: meals amazing low calorie delicious require refrigeration cook two microwave one meal less calories find delicious goodness microwave meal less half definately cupbard
+gt: delicious and amazing
+summary: great
+
+text: rich delicious decaffeinated coffee really hard tell real thing san francisco bay coffee bite real coffee missing decaf eco frendly design resonable price big plus
+gt: rich and tasty decaf
+summary: the best coffee great
+
+text: nice quality easy cook find better cooked minutes directed like minutes depending quantity cooked one time enough water cook totally dry yet noticeable water remaining bottom pan great breakfast cooked bit lean sausage
+gt: better than i expected
+summary: great product
+
+text: warning never back nestle chocolate getting used chocolaty sweet costco carries similar ghirardelli double chocolate bittersweet chips way better cost baking season food faddists saying chocolate good enjoy changes
+gt: so excellent but shop around
+summary: great
+
+text: chiocciole italian means snails like wider mezzi rigatoni curling shell shaped ideal chunky sauce unfortunately pasta shape available neither cecco barilla supermarket brands buy marella brand new happy find made two bags chiocciole great results
+gt: hard to find shape excellent texture
+summary: great product
+
+text: buying sugar twin years sudden could longer find ounce boxes local grocery stores much convenient small packets make iced tea gallon tried substituting brands sweeteners none sweetened well sugar twin glad find size still available online far best sugar free sweeteners
+gt: best sweetener on the market
+summary: great taste great
+
+text: coffee taste amazing tolerable perhaps par lower end medium quality espresso coffee high get insane better energy drinks energy drinks really get shaky edge gets close enough edge comfortable control like speed love good job medaglia
+gt: ridiculous energy
+summary: great taste great for the best price
+
+text: thank wonderful chips great price arrived perfect condition although box little smashed chips pristine condition
+gt: and arrived with not a single broken chip
+summary: great
+
+text: arrived time dont quite melt advertised required much stiring left something sludge bottom cup
+gt: they sort of work
+summary: great
+
+text: love love love love cherry flavored anything easy haha candies good love nice cherry favor thanks
+gt: great tasty candy
+summary: love it is the best ever
+
+text: using coconut oil substitute cooking oils skin hair products years stellar brand organic cold pressed made safe storing lot good info web coconut oil saving health jump band wagon late
+gt: best advice i ever received
+summary: great for the best price
+
+text: used dove soap many years think good sensitive skin grandchildren enjoy also
+gt: lovely dove
+summary: great product
+
+text: really enjoyed product tastes good close russian iranian versions also service quick delivery added bonus would highly recommend product
+gt: excellent quality and value
+summary: great
+
+text: flavor simply delightful funny taste stevia sweet black cherry flavor pleased
+gt: delightful
+summary: the best i love it is not so good stuff
+
+text: often review things especially groceries oats deserve good word actually good oats good price good packaging agree foks say good mccann half price actually better last mccann got local supermarket gone stale store super fresh nutty fears shipping unfounded mine arrived undamaged days
+gt: good good good
+summary: great
+
+text: everyone found birthday way think candies exceptional tasting enjoyed seeing friends eyes light saw old favorites generated lot talking laughing reminiscing bunch ladies got candy cigarettes picture taken smoking lounge dad frugal unfortunately price slip included first says kidding bit also showing german roots gayle box candy called several times let know got worth fun consider getting gift box father era gift lot candy figured would enjoy plenty share year old father thought candy selection right target remembered buying kid
+gt: a blast at the retirement home
+summary: great
+
+text: one flavors keep around extra surprise get using old food favorite like awhile change sure poultry platter means guess anyway smells fresh stink ridiculously palatable recommend
+gt: we will eat it once in awhile
+summary: great taste great
+
+text: really loved taste energy drink two servings per calories per serving entire calories light slightly fruity taste really enjoyed drinking energy drinks always experienced kick energy get one said feel good crash later certainly get fear super energy
+gt: servings per can of no fear energy drink
+summary: great
+
+text: used product one purchased weaker flavor one previously
+gt: mccormick pure orange
+summary: great product
+
+text: lagavulin pronounced lahk voolin one islay distilleries long interesting history regarding region scotch whiskey distilleries interested give google islay whiskeys tried tend smoky peaty taste hint sea lagavulin favorite drinker scotch whiskey promise notice unique distinct difference right away wonderful wife scotch whiskey drinker enjoys lagavulin last decade seemed gained popularity noticed substantial increase local retail prices typically range also experienced supply shortages believe price listed seems good cannot say enough good things whiskey give try glad
+gt: nothing like any other scotch whiskey
+summary: the best
+
+text: son started reject nursing around wks since exclusively pumping son almost months eating pump due big size lot research formula one seems best smells tastes good vanilla flavor son loves give one bottle day formula rest breast milk worried constipation also add packet baby essentials probiotic bottle day thing like formula gets really foamy try mix shaking use mini wisk works great
+gt: my baby loves it
+summary: love it is the best i love it is a great
+
+text: best decaf found tried lot great cup coffee
+gt: love it
+summary: the best price
+
+text: great gluten free product wonderful flavor get mushy like rice flour pasta tends downside really cannot reheat unless fry microwave reheat tends get dry fall apart
+gt: great taste
+summary: great for a great
+
+text: coffee great bold taste wakens ones taste buds every cup highly recommend brand
+gt: great coffee
+summary: great
+
+text: count coffee pod packages got machine free result rocky relationship coffee easily bellying bar spending month starbucks bit manufacturer pod machine bought recommends using pod brand pods course trouble trouble finding first batch got machine bought several packs melitta guys amazon use pod coffeemaker since friend melitta machine sprang enough pods qualify free super saver shipping figured would give work turns work fine machine regular flavored coffees though necessarily gourmet stuff really quite tasty would problem serving coffee guest home
+gt: swf seeks tall dark warm fast joe
+summary: great coffee
+
+text: looking traditional treat family event impressed quality food service shatila pastries fresh delivered quickly dramatic shipping mark reasonably priced placing another order gift friend highly recommend
+gt: best service and quality i have seen
+summary: great
+
+text: excellent alternative regular pasta product wish came shape varieties even non gluten sensitive friends family member love
+gt: love this stuff
+summary: great for the best buy it is not so good for a little goes a great
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="we-can-learn-from-the-great-great-great-great-great-results-that-it-is-el-hamd-llah-3la-kol-7aga-(thank-god-for-everything)">we can learn from the great great great great great results that it is el hamd llah 3la kol 7aga (thank god for everything)<a class="anchor-link" href="https://htmtopdf.herokuapp.com/ipynbviewer/temp/647d465763618631ab8e667588f4f8eb/text_summarization.html?t=1603314493717#we-can-learn-from-the-great-great-great-great-great-results-that-it-is-el-hamd-llah-3la-kol-7aga-(thank-god-for-everything)">¶</a></h1>
+</div>
+</div>
 </div>
     </div>
   </div>
-</body>
+
 
  
 
 
-</html>
+
+<div></div></body></html>
