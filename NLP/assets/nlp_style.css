@@ -168,7 +168,7 @@
         -webkit-box-direction: normal;
         flex-direction: row;
         max-width: 70%;
-        height: 250px
+        height: auto;
     }
     .blog-card .meta {
         flex-basis: 40%;

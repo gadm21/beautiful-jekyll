@@ -37,7 +37,7 @@ title: shallow thoughts on deep learning
 
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="NLP/assets/cv_style.css">
+    <link rel="stylesheet" href="NLP/assets/nlp_style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167607612-1"></script>
 
@@ -74,7 +74,7 @@ title: shallow thoughts on deep learning
 
     <div class="blog-card">
         <div class="meta">
-            <div class="photo" style="background-image: url(computer_vision/images/noisy_mnist.png)"></div>
+            <div class="photo" style="background-image: url(https://www.inovex.de/blog/wp-content/uploads/2019/07/seq2seq-text-summarization.png)"></div>
 
             <ul class="details tags">
                 <li><a href="https://towardsdatascience.com/text-summarization-with-glove-embeddings-1e969ef9a452">Post</a></li>
@@ -82,11 +82,29 @@ title: shallow thoughts on deep learning
             </ul>
         </div>
         <div class="description">
-            <h1>Noisy MNIST classification</h1>
-            <h2>using KNN to classifiy a Noisy MNIST dataset</h2>
-            <p> KNN is a simple machine learning algorithm for classification tasks which requires no learning and works the best on medium-sized datasets. Here, I firstly clean the data using median filter and cropping, then I use PCA dimensionality reduction
-                tool to speed up KNN by reducing feature dimension as well as increase feature quality. Finally, the model's performance is evaluated using the Leave-one-out cross-validation algorithm and confusion matrix is calculated on the testset</p>
-            <p style="color: burlywood;">keywords: KNN, PCA, MNIST, median-filter, confusion matrix, Leave-one-out cross-validation</p>
+            <h1>Text summarization</h1>
+            <h2>Summarize amazon food reviews</h2>
+            <p> Using LSTM and attention mechanism, and the amazon fine food reviews from kaggle, a text summarizer is finally born to save us from long exhausting reviews. </p>
+            <p style="color: burlywood;">keywords: LSTM, seq2seq, Bahdanau attention, kaggle dataset, food reviews, GloVe</p>
+
+
+        </div>
+    </div>
+
+
+    <div class="blog-card">
+        <div class="meta">
+            <div class="photo" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBzOefUyBQXRvXEziYXrMoUKdSPQLfNfAf6A&usqp=CAU)"></div>
+
+            <ul class="details tags">
+                <li><a href="https://github.com/gadm21/AI/blob/master/fasttext_demo.ipynb">code</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <h1>Real/Fake news classification</h1>
+            <h2> use fasttext framework to classify news</h2>
+            <p> fasttext is a new facebook deeplearning framework that uses light learning algorithms to train models fastly. This text classifier takes the news title and predicts whether the news is fake or real. (sponsored by president Trump) </p>
+            <p style="color: burlywood;">keywords: fasttext, fake/real news</p>
 
 
         </div>
