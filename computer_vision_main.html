@@ -80,6 +80,52 @@ title: shallow thoughts on deep learning
 
     <div class="blog-card">
         <div class="meta">
+            <div class="photo" style="background-image: url(computer_vision/images/lane_instance_segmentation.png)"></div>
+
+            <ul class="details tags">
+                <li><a href="publications/papers/Real-Time Lane Instance Segmentation Using SegNet and Image Processing.pdf">Paper</a></li>
+                <li><a href="https://github.com/gadm21/Real-time-lane-instance-segmentation">Code</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <h1>Lane instance segmentation</h1>
+            <h2></h2>
+            <p>
+                This project was, dare I say it, an improvement on LaneNet's speed, from 0.7 FPS to 15 FPS on tesla k80, while being slightly less accurate, acheiving 91% compared to 96% by LaneNet on tuSimple dataset. This improvement was done by replacing the discriminative
+                loss function branch (which uses the computationally expensive DBSCAN and mean-shift algorithms) with a simpler and faster nested sliding windows extracting each lane from a lane binary segmentation map.
+            </p>
+            <p style="color: burlywood;">keywords: Lane detection, instance segmentation, SegNet, sliding window, TensorFLow</p>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="blog-card">
+        <div class="meta">
+            <div class="photo" style="background-image: url(computer_vision/images/lane_detection.jpg)"></div>
+
+            <ul class="details tags">
+                <li><a href="https://github.com/gadm21/Lane-detectionn">Code</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <h1>Lane detection</h1>
+            <h2>non-DL based method</h2>
+            <p>
+                Image processing techniques like canny edge detection, binary thresholding, perspective transformation, and histogram, are used to make a fast non-deeplearning based lane detection algorithm. The algorithm also fits the detected lanes in a 3rd order polynomial
+                function to be used in following frames as a starting point to detect lanes.
+            </p>
+            <p style="color: burlywood;">keywords: Lane detection, perspective transformation, histogram, opencv</p>
+
+
+        </div>
+    </div>
+
+
+    <div class="blog-card">
+        <div class="meta">
             <div class="photo" style="background-image: url(computer_vision/images/image_captioning.png)"></div>
 
             <ul class="details tags">
