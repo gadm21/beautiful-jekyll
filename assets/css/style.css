@@ -186,11 +186,6 @@ p .keywords {
     box-shadow: 0px 5px 11px 0px var(--shadow-color1), 0px 4px 15px 0px var(--shadow-color2);
 }
 
-.social-icons.spinned .item:hover {
-    -webkit-animation: Social-Icons-Flipping .3s;
-    animation: Social-Icons-Flipping .3s
-}
-
 .social-icons .item:hover {
     text-decoration: none;
     background-color: var(--primary-color);
