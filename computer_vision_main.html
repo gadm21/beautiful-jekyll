@@ -80,22 +80,50 @@ title: shallow thoughts on deep learning
 
 
 
+
+
+
+
     <div class="blog-card">
         <div class="meta">
-            <div class="photo" style="background-image: url(computer_vision/images/brain_tumor.png)"></div>
+            <div class="photo" style="background-image: url(computer_vision/images/satellite2.png)"></div>
 
             <ul class="details tags">
-                <li><a href="https://colab.research.google.com/drive/1WM0W2icPwG2zdL1NLNSHRd0UQojqzeZ0?usp=sharing">Code</a></li>
+                <li><a href="computer_vision/posts/internship report.pdf">Report</a></li>
+                <li><a href="https://github.com/gadm21/satellite-imagery-analysis/tree/main/Unsupervised%20learning">Unsupervised learning code</a></li>
+                <li><a href="https://github.com/gadm21/satellite-imagery-analysis/tree/main/supervised%20learning">Supervised learning code</a></li>
             </ul>
         </div>
         <div class="description">
-            <h1>3D Brain tumor segmentation</h1>
-            <h2>segmentaiton of brain tumors for MRI using 3d-UNet</h2>
+            <h1>Urban areas segmentation of satellite images</h1>
+            <h2> </h2>
             <p>
-                This project is still ongoing (live code can be found in the 'code' link). The aim of the project is to get familiar with 3D segmentation by buliding a multi-class segmentation model which identifies 3 abnormalities: edemas, non-enhancing tumors, and
-                enhancing tumors.
+                This is an end-to-end method of urban-area segmentation starting from acquiring and preprocessing satellite images, combining unsupervised learning (clustering) with manual labeling to generate a labeled dataset of urban area maps of the acquired images,
+                finally, building and training a binary segmentation model to predict urban area maps of new satellite images.
             </p>
-            <p style="color: burlywood;">keywords: kmean clustering, SegNet, PlanetScope, urban areas </p>
+            <p style="color: burlywood;">keywords: urban-areas detection, SegNet, PlanetScope </p>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="blog-card">
+        <div class="meta">
+            <div class="photo" style="background-image: url(computer_vision/images/change_detection2.png)"></div>
+
+            <ul class="details tags">
+                <li><a href="https://github.com/gadm21/change-detection-in-urban-areas/blob/main/change_detection_in_dubai.ipynb">Code</a></li>
+            </ul>
+        </div>
+        <div class="description">
+            <h1>Detecting urban development in Dubai</h1>
+            <h2></h2>
+            <p>
+                Using temporal satellite imagery, I extract the difference by clustering the principle components of the difference image and using connected component analysis to sort developed areas to focus on the areas that witnessed the most change.
+            </p>
+            <p style="color: burlywood;">keywords: PCA, connectedComponentAnalysis, urban development detection </p>
 
 
         </div>
