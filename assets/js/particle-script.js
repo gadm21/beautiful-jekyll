@@ -9,7 +9,7 @@ particlesJS("particle-container", {
         },
         "color": {
             /*"value": "#FFA500"*/
-            "value": "#00005e"
+            "value": "#ff1e00"
 
         },
         "shape": {
@@ -56,8 +56,8 @@ particlesJS("particle-container", {
         },
         "move": {
             "enable": true,
-            "speed": 1.5,
-            "direction": "bottom",
+            "speed": 0.7,
+            "direction": "top",
             "random": false,
             "straight": false,
             "out_mode": "out",

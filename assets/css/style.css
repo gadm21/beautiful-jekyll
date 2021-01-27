@@ -1,16 +1,16 @@
 :root {
-    --primary-color: #2600b1;
+    --primary-color: #0049B7;
     --secondary-color: #d5d5d5;
-    --link-color: #287dfc;
-    --hover-color: #50a6ac;
-    --font-color: #00126c;
-    --bg-color1: rgb(255, 252, 252);
-    --bg-color2: rgba(227, 214, 76, 0.989);
+    --link-color: #ff1e00;
+    --hover-color: #50ac53;
+    --font-color: #0049B7;
+    --bg-color1: #e8f9fd;
+    --bg-color2: #fff5d7;
     --bg-color3: #043f4a;
     --bg-color4: #000000fc;
     --heading-color: #292922;
-    --shadow-color1: rgba(0, 0, 0, 0.18);
-    --shadow-color2: rgba(0, 0, 0, 0.15);
+    --shadow-color1: #FDF8F5;
+    --shadow-color2: navy;
 }
 
 [data-theme="dark"] {
@@ -40,8 +40,8 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-    background: linear-gradient(180deg, var(--bg-color1), var(--bg-color2));
-    background-size: 400% 400%;
+    background: linear-gradient(0deg, var(--bg-color1), var(--bg-color2));
+    background-size: 200% 200%;
     /*-webkit-animation: gradient 30s ease infinite; */
     /*animation: gradient 30s ease infinite; */
     color: var(--font-color);
