@@ -8,7 +8,8 @@ particlesJS("particle-container", {
             }
         },
         "color": {
-            "value": "#FFA500"
+            /*"value": "#FFA500"*/
+            "value": "#00005e"
 
         },
         "shape": {

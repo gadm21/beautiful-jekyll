@@ -5,9 +5,9 @@
     --hover-color: #50a6ac;
     --font-color: #00126c;
     --bg-color1: rgb(255, 252, 252);
-    --bg-color2: rgba(90, 150, 183, 0.372);
-    --bg-color3: #bcdde364;
-    --bg-color4: #01ddfffc;
+    --bg-color2: rgba(227, 214, 76, 0.989);
+    --bg-color3: #043f4a;
+    --bg-color4: #000000fc;
     --heading-color: #292922;
     --shadow-color1: rgba(0, 0, 0, 0.18);
     --shadow-color2: rgba(0, 0, 0, 0.15);
@@ -40,7 +40,7 @@ body {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-    background: linear-gradient(90deg, var(--bg-color1), var(--bg-color2), var(--bg-color4));
+    background: linear-gradient(180deg, var(--bg-color1), var(--bg-color2));
     background-size: 400% 400%;
     /*-webkit-animation: gradient 30s ease infinite; */
     /*animation: gradient 30s ease infinite; */
