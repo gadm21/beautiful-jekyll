@@ -1,13 +1,6 @@
-<!--
----
-layout: home
-title: shallow thoughts on deep learning  
----
--->
 
 <!DOCTYPE html>
 <html lang="en">
-
 
 
 
@@ -25,13 +18,13 @@ title: shallow thoughts on deep learning
 
     <meta charset="utf-8">
     <title>Gad Mohamed</title>
-    <meta name="description" content="This is Gad's Homepage">
     <meta name="author" content="Gad Mohamed">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="assets/img/me.jpg" />
+    <link rel="shortcut icon" type="image/png" href="../assets/img/me.jpg" />
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../books/assets/card_style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!--
@@ -40,7 +33,6 @@ title: shallow thoughts on deep learning
       -->
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="publications/assets/paper_style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167607612-1"></script>
@@ -62,25 +54,26 @@ title: shallow thoughts on deep learning
 <body>
 
     <div id="particle-container"></div>
+
     <div id="container">
 
         <ul data-aos="fade-down" data-aos-duration="300">
 
-            <li><a href="index.html ">HOME</a></li>
+            <li><a  href="../index.html ">HOME</a></li>
             
             <li>
-                <a href="FL/fl_main.html">Federated Learning</a>
+                <a class="active" href="fl_main.html">Federated Learning</a>
                 <ul>
-                    <li><a href="FL/whatwhyhow.html">What. Why. How.</a></li>
-                    <li><a href="FL/KDFL.html">Knowledge Distillation-based FL</a></li>
+                    <li><a href="whatwhyhow.html">What. Why. How.</a></li>
+                    <li><a href="KDFL.html">Knowledge Distillation-based FL</a></li>
                     <!-- Add more submenu items here -->
                 </ul>
             </li>
             <li>
-                <a href = "DP/dp_main.html" >Differential Privacy</a>
+                <a href = "../DP/dp_main.html" >Differential Privacy</a>
                 <ul>
-                    <li><a href="DP/whatwhyhow.html">What. Why. How.</a></li>
-                    <li><a href="DP/dp_relaxations.html">DP relaxations</a></li>
+                    <li><a href="../DP/whatwhyhow.html">What. Why. How.</a></li>
+                    <li><a href="../DP/dp_relaxations.html">DP relaxations</a></li>
                     <!-- Add more submenu items here -->
                 </ul>
             </li>
@@ -88,9 +81,9 @@ title: shallow thoughts on deep learning
             <li>
                 <a>Deep Learning</a>
                 <ul>
-                    <li><a href="computer_vision_main.html">Computer Vision</a></li>
-                    <li><a href="nlp_main.html">Natural Language Processing</a></li>
-                    <li><a href="structured_data_main.html">Tabular Data</a></li>
+                    <li><a href="../computer_vision_main.html">Computer Vision</a></li>
+                    <li><a href="../nlp_main.html">Natural Language Processing</a></li>
+                    <li><a href="../structured_data_main.html">Tabular Data</a></li>
                     <!-- Add more submenu items here -->
                 </ul>
             </li>
@@ -98,51 +91,45 @@ title: shallow thoughts on deep learning
         
             <!-- <li><a href="ds_alg_main.html">DataStructures & Algorithms</a></li>
             <li><a href="moocs_main.html">MOOCS</a></li> -->
-            <li><a class = "active" href="publications_main.html">Publications</a></li>
-            <li><a href="books.html">Bookshelf</a></li>
+            <li><a href="../publications_main.html">Publications</a></li>
+            <li><a href="../books.html">Bookshelf</a></li>
         </ul>
     </div>
 
 
-    </div>
 
-    <!--  add vertical distance -->
-    <div class="marginal">
-        
 
-    <div class="blog-card">
-        <div class="description">
-            <h1><a href="https://www.mdpi.com/1424-8220/23/1/6">Federated Learning via Augmented Knowledge Distillation for Heterogenous Deep Human Activity Recognition Systems</a></h1>
-            <h2>Gad Gad, , Fadlullah, Z.</h2>
-            <h2>MDPI Sensors (2023)</h2>
+
+
+    <!--
+    <br>
+    <br>
+    <h4 style="font-size: 2.7em; margin: 1em; text-align: left;">Under construction ;)</h4>
+    -->
+
+
+    <h4 style="font-size: 2.7em; margin: 1em; text-align: left;">Federated Learning</h4>
+    <div class="flip">
+        <div class="front" style="background-image: url(../books/images/world_is_flat.jpg) ">
+        </div>
+        <div class="back ">
+            <p> _____</p>
         </div>
     </div>
-
-    <div class="blog-card">
-        <div class="description">
-            <h1><a href="https://www.mdpi.com/2079-9292/11/11/1785">Deep Learning-Based Context-Aware Video Content Analysis on IoT Devices</a></h1>
-            <h2>Gad, G., Gad, E., Cengiz, K., Fadlullah, Z., & Mokhtar, B.</h2>
-            <h2>MDPI Electronics (2022)</h2>
+    <div class="flip ">
+        <div class="front " style=" background-image: url(../books/images/what_uncle_sam_wants.jpg) ">
+        </div>
+        <div class="back ">
+            <p> _____</p>
         </div>
     </div>
-
-    <div class="blog-card">
-        <div class="description">
-            <h1><a href="https://ieeexplore.ieee.org/document/9595891">Towards optimized IoT-based context-aware video content analysis framework</a></h1>
-            <h2>G. Gad, G. Eyad, B. Mokhtar</h2>
-            <h2>IEEE 7th World Forum on Internet of Things (2021) </h2>
+    <div class="flip ">
+        <div class="front " style="background-image: url(../books/images/the_art_of_war.jpg) ">
+        </div>
+        <div class="back ">
+            <p> _____</p>
         </div>
     </div>
-
-    <div class="blog-card">
-        <div class="description">
-            <h1><a href="https://ieeexplore.ieee.org/document/9257977">Real-Time Lane Instance Segmentation Using SegNet and Image Processing</a></h1>
-            <h2>G. Gad, A. Annaby, M. Saeed, NK. Negied</h2>
-            <h2>IEEE Novel Intelligent and Leading Emerging Sciences (2020) </h2>
-        </div>
-    </div>
-
-
 
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

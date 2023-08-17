@@ -1,20 +1,20 @@
 :root {
-    --primary-color: #0049B7;
-    --secondary-color: #d5d5d5;
-    --link-color: #ff1e00;
-    --hover-color: #50ac53;
-    --font-color: #0049B7;
-    --bg-color1: #e8f9fd;
-    --bg-color2: #fff5d7;
-    --bg-color3: #043f4a;
-    --bg-color4: #000000fc;
-    --heading-color: #292922;
-    --shadow-color1: #FDF8F5;
-    --shadow-color2: navy;
+    --primary-color: #0051D8;
+    --secondary-color: #c4c4c4;
+    --link-color: #ff2500;
+    --hover-color: #4bc151;
+    --font-color: #0039A7;
+    --bg-color1: #e0fafd;
+    --bg-color2: #fff3d2;
+    --bg-color3: #024549;
+    --bg-color4: #000;
+    --heading-color: #2a2a20;
+    --shadow-light: #FEEFEA;
+    --shadow-dark: #2c3e50;
 }
 
 [data-theme="dark"] {
-    --primary-color: #a7a4fa;
+    --primary-color: #b7b4ff;
     --secondary-color: #ffb65d;
     --link-color: #fff8c6;
     --hover-color: #fff082;
@@ -44,10 +44,13 @@ body {
     flex-direction: column;
     background: linear-gradient(0deg, var(--bg-color1), var(--bg-color2));
     background-size: 200% 200%;
+    display: flex;
     /*-webkit-animation: gradient 30s ease infinite; */
     /*animation: gradient 30s ease infinite; */
     color: var(--font-color);
 }
+
+
 
 
 
@@ -81,19 +84,11 @@ body {
 */
 
 .container {
-    margin-top: 5em;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5em auto 50px auto;  /* top, right, bottom, left */
     width: 100%;
     position: relative;
 }
 
-.marginal {
-    margin-left: 30px;
-}
-
-
-/*48em*/
 
 @media (max-width: 768px) {
     .container {
@@ -102,9 +97,11 @@ body {
 }
 
 h1 {
-    font-size: 14.5em;
+    font-size: 14em;
     font-weight: 500;
-    margin-bottom: 0;
+    margin-bottom: 0.2em;
+    color: var(--heading-color);
+    text-align: left;
 }
 
 p {
@@ -112,10 +109,12 @@ p {
     font-weight: 300;
     line-height: 1.4;
     max-width: 85%;
+    margin: 1em 0;
+    text-align : left;
 }
 
 p .keywords {
-    color: burlywood;
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
@@ -366,37 +365,80 @@ input:checked+.slider:before {
     z-index: 0;
 }
 
+
+
+
+/* Enhanced default list styling */
 ul {
     list-style-type: none;
-    margin: 10px 20px 50px;
     padding: 0;
-    overflow: hidden;
-    background-color: transparent;
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Change this to any font you prefer */
 }
 
 li {
-    float: left;
+    position: relative;
+    display: inline-block; 
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
 }
 
 li a {
-    border-color: red;
     display: block;
-    color: rgba(22, 29, 170, 0.363);
-    text-align: center;
-    padding: 14px 16px;
+    padding: 10px;
     text-decoration: none;
+    color: black;
+    border-radius: 4px; /* Rounded corners for menu items */
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
 }
 
-li a:hover:not(.active) {
-    text-decoration: none;
+li a.active { /* Active page styling */
+    background-color: #ddd;
+    color: #333;
 }
 
-li a.active {
-    color: rgb(25, 31, 199);
-    text-decoration: none;
-    border-bottom: solid;
-    border-bottom-color: rgb(49, 17, 165);
+li a:hover, li a.active:hover {
+    background-color: #eee; /* A slightly lighter color on hover for the active item */
+}
+
+/* Enhanced submenu styling */
+li > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Rounded corners for dropdown */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow for depth perception */
+    transition: opacity 0.2s, transform 0.2s; /* Fade-in effect */
+    transform: translateY(-10px); /* Starts a bit up for the fade-in effect */
+    opacity: 0;
+}
+
+li:hover > ul {
+    display: block;
+    transform: translateY(0); /* Reset to its position when shown */
+    opacity: 1;
+}
+
+li > ul li {
+    display: block;
+    width: 200px;
+    border-radius: 4px; /* Rounded corners for submenu items */
+}
+
+li > ul li a {
+    padding: 5px 10px;
+    transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+li > ul li a:hover {
+    background-color: #ccc;
 }
 
 
-
+.marginal {
+    margin-left: 20px;
+    margin-top: 100px; 
+}

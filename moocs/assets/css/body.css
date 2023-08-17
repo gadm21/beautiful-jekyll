@@ -11,6 +11,8 @@ body {
   justify-content: center;
   align-items: center;
   margin: 20px;
+  position: relative;
+  z-index : 1000;
 }
 #header {
   display: flex;
