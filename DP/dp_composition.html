@@ -17,8 +17,8 @@
 
 
     <meta charset="utf-8">
-    <title>Gad Mohamed</title>
-    <meta name="author" content="Gad Mohamed">
+    <title>Gad</title>
+    <meta name="author" content="Gad Gad">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="../assets/img/me.jpg" />
 
@@ -48,6 +48,11 @@
         gtag('config', 'UA-167607612-1');
     </script>
 
+    <script type="text/javascript" async
+    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+
+
 
 </head>
 
@@ -62,19 +67,19 @@
             <li><a  href="../index.html ">HOME</a></li>
             
             <li>
-                <a class="active" href="fl_main.html">Federated Learning</a>
+                <a href="../FL/fl_main.html">Federated Learning</a>
                 <ul>
-                    <li><a href="whatwhyhow.html">What. Why. How.</a></li>
-                    <li><a href="KDFL.html">Knowledge Distillation-based FL</a></li>
+                    <li><a href="../FL/whatwhyhow.html">What. Why. How.</a></li>
+                    <li><a href="../FL/KDFL.html">Knowledge Distillation-based FL</a></li>
                     <!-- Add more submenu items here -->
                 </ul>
             </li>
             <li>
-                <a href = "../DP/dp_main.html" >Differential Privacy</a>
+                <a href = "dp_main.html" >Differential Privacy</a>
                 <ul>
-                    <li><a href="../DP/dp_how.html">Applying DP</a></li>
-                    <li><a href="../DP/dp_composition.html">DP composition</a></li>
-                    <li><a href="../DP/dp_relaxations.html">DP relaxations</a></li>
+                    <li><a href="dp_how.html">Applying DP</a></li>
+                    <li><a class= "active" href="dp_composition.html">DP composition</a></li>
+                    <li><a href="dp_relaxations.html">DP relaxations</a></li>
                     <!-- Add more submenu items here -->
                 </ul>
             </li>
@@ -109,36 +114,13 @@
     -->
 
 
-    <h4 style="font-size: 2.7em; margin: 1em; text-align: left;">Federated Learning (FL)</h4>
-
-    <p>As devices around us become smarter, the demand to train machine learning models on the data they collect grows. However, transferring all the data to a central server poses privacy risks and bandwidth challenges. Federated Learning addresses these issues by training models locally on each device and only sharing model updates, thereby keeping raw data decentralized and preserving user privacy.</p>
+    <h4 style="font-size: 2.7em; margin: 1em; text-align: left;">What is DP composition</h4>
     
-    <h5 style="font-size: 2.7em; margin: 1em; text-align: left;">What is FL</h5>
-    <p>Federated Learning is a machine learning paradigm where the training process is distributed across multiple devices or nodes. These nodes compute model updates locally on their data and send these updates to a central server. The server aggregates these updates, refines the global model, and then sends it back to the nodes. This process ensures that raw data never leaves the local device, enhancing user privacy and reducing data transfer costs.</p>
-    
-    <h5 style="font-size: 2.7em; margin: 1em; text-align: left;">How is FL different from traditional ML</h5>
-    <p>Unlike traditional machine learning, where all data is pooled at a central server for training, FL keeps the data local. In FL, only model updates, like gradients or weights, are transmitted to the central server. This decentralized approach significantly reduces the risk of data breaches, provides better data privacy, and accommodates devices with limited bandwidth or sporadic connectivity.</p>
-    
-    <h5 style="font-size: 2.7em; margin: 1em; text-align: left;">Benefits of FL</h5>
-    <p>Federated Learning offers several benefits: 
-    <ol>
-      <li><strong>Privacy-Preserving:</strong> Since raw data doesn't leave the device, user data remains private.</li>
-      <li><strong>Bandwidth Efficiency:</strong> Transmitting model updates instead of raw data saves bandwidth.</li>
-      <li><strong>Real-time Learning:</strong> Devices can continuously learn from new data without waiting for centralized updates.</li>
-    </ol>
+    <p>
+        <b>DP composition</b> is the process of combining multiple DP mechanisms to achieve a desired privacy level.
     </p>
     
-    <h5 style="font-size: 2.7em; margin: 1em; text-align: left;">Challenges in FL</h5>
-    <p>While FL is promising, it comes with challenges:
-    <ol>
-      <li><strong>Communication Overhead:</strong> Continuously updating global models requires robust communication protocols.</li>
-      <li><strong>Heterogeneity:</strong> Devices may have different data distributions, leading to non-IID data scenarios.</li>
-      <li><strong>Security:</strong> Aggregating updates from multiple devices poses new security concerns, like model poisoning attacks.</li>
-    </ol>
-    </p>
     
-
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

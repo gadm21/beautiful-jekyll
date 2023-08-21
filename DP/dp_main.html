@@ -77,7 +77,8 @@
             <li>
                 <a  class="active" href = "dp_main.html" >Differential Privacy</a>
                 <ul>
-                    <li><a href="whatwhyhow.html">What. Why. How.</a></li>
+                    <li><a href="dp_how.html">Applying DP</a></li>
+                    <li><a href="dp_composition.html">DP composition</a></li>
                     <li><a href="dp_relaxations.html">DP relaxations</a></li>
                     <!-- Add more submenu items here -->
                 </ul>
@@ -113,29 +114,20 @@
     -->
 
 
-    <h4 style="font-size: 2.7em; margin: 1em; text-align: left;">Differential Privacy (DP)</h4>
+    <h4 style="font-size: 2.7em; margin: 1em; text-align: left;">What is Differential Privacy (DP)</h4>
 
     <p>In the digital age, data breaches and misuse are rampant. While we want to make use of data for various beneficial purposes, it's crucial to ensure individual data points cannot be reverse-engineered. Differential Privacy, by adding controlled noise, allows for broad trends in data to be analyzed without revealing specifics about individual data entries, thereby preserving user privacy to a quantifiable standard denoted by \(\epsilon\).</p>
 
-    <h5 style="font-size: 2.7em; margin: 1em; text-align: left;">What is DP</h5>
+    
     <p>Differential privacy provides a means to quantify the privacy loss in statistical databases. A randomized algorithm \(M\) satisfies \((\epsilon,\delta)\)-differential privacy if, for all datasets \(D_1\) and \(D_2\) differing in a single element, and for any set of possible outputs \(S\), we have:
         \[
         P[M(D_1) \in S] \leq e^\epsilon \times P[M(D_2) \in S] + \delta
         \]
         where \(0 \leq \delta < 1\) is a small constant, and \(\epsilon\) is a non-negative parameter that measures the privacy loss.</p>
     
+    <p>The term “differential” privacy refers to its emphasis on the dissimilarity between the results produced by a privacy-preserving algorithm on two datasets that differ by just one individual’s data.</p>
     
-    
-    <h5 style="font-size: 2.7em; margin: 1em; text-align: left;">How is DP applied to Databases</h5>
-    <p>Differential Privacy in databases is implemented primarily through noise addition. When a query is made on a database, rather than returning the exact result, the database mechanism injects calibrated random noise into the response. This noise is often drawn from a Laplace or Gaussian distribution centered at zero with a scale related to the value of \(\epsilon\) and the sensitivity of the query. As a result, while the aggregate data can be analyzed, an adversary cannot confidently infer about a specific individual's data.</p>
-    
-    <h5 style="font-size: 2.7em; margin: 1em; text-align: left;">How is DP applied to Machine Learning</h5>
-    <p>For machine learning, Differential Privacy is applied in two primary stages: during data collection and during the training process. In data collection, noise is added to ensure individual data contributions remain private. During training, noise is added to gradients in each iteration, ensuring the model does not overfit or memorize individual data points. The privacy budget \(\epsilon\) is consumed over the training, and mechanisms like the moments accountant method can be used to track and control the overall privacy loss.</p>
-    
-    <h5 style="font-size: 2.7em; margin: 1em; text-align: left;">DP relaxations</h5>
-    <p>\((\epsilon,\delta)\)-differential privacy is a relaxation of pure \(\epsilon\)-differential privacy. The added \(\delta\) term, a small probability close to 0, permits minor deviations from the strict \(\epsilon\)-differential privacy, allowing for more utility in certain applications. Other relaxations, like approximate differential privacy and Rényi differential privacy, have been proposed to balance the trade-off between privacy and utility.</p>
-    
-    
+
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
